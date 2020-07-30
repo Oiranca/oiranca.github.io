@@ -1,0 +1,16 @@
+title: Contacts
+subtitle: Medios de contacto.
+
+items:
+  - title: Location
+    content: Gran Canaria
+    href: "#"
+#  - title: Phone
+#    content: +77 234 548 00 00
+#    href: "#"
+  - title: Email
+    content: oiranca@gmail.com
+    href: "#"
+  - title: Web
+    content: En construcción
+    href: "#"
