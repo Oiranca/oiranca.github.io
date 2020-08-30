@@ -12,6 +12,7 @@ let about = (site.data.about !== undefined) ? site.data.about : defaultData('abo
               <div class="text-right sm-text-left">
                   <h2 class="margin-b-0"><%- about.title %></h2>
                   <p><%- about.subtitle %></p>
+                  <img class="profile-image img-responsive" src="<%= about.image %>" alt="Perfil Image">
               </div>
           </div>
           <div class="col-sm-8 col-sm-offset-1">

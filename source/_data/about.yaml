@@ -1,15 +1,28 @@
 title: "Un poco de mí"
-subtitle: "What I am all about."
-description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                 "
+subtitle: "Curioso por naturaleza."
+image: "img/perfil/photo_me.jpg"
+description: "<p>Mi nombre es <strong>Samuel Romero Arbelo</strong> soy de un pequeño pueblo llamado Ingenio, en la provincia de Las Palmas.</p>
+
+              <p> Soy una persona <strong>curiosa</strong>, que le gusta estar siempre <strong>investigando</strong>, <strong>autodidacta</strong> ...,
+                  pero tengo que admitir que donde esté un buen equipo en el que todos aprendamos, me siento muy cómodo</p>
+
+                 <p>Empecé en este mundillo cuando tenía unos 21 años, en un Ciclo de Grado Superior de Telecomunicaciones en Informática, donde ví
+                 <strong>C++</strong>, pero por capricho de la vida, mi camino no fue el de la programación, aunque siempre se quedó dentro de mí el
+                  no poder dedicarme a ello.
+
+                  <p> Actualmente, he terminado el Ciclo Superior de Desarrollo de <strong>Aplicaciones Multiplataformas</strong> y por mi parte he realizado varios cursos
+                  de <strong>JavaScript</strong>, <strong>Angular</strong>, <strong>HTML5</strong>, <strong>CSS3</strong> y hoy en día sigo formándome <i><strong>(eso nunca va a parar)</strong></i>,
+                  en un bootcamp de <strong>Frontend</strong>, donde estoy reforzando conocimientos, pero también aprendiendo tenologías nuevas como <strong> React </strong>y seguiré con otro de
+                  Backend y para finalizar esta formación, uno de Agile.</p>"
 
 skills:
-  - name: PHP
-    percentage: 87
+  - name: Java
+    percentage: 60
   - name: HTML5
-    percentage: 96
-  - name: JavaSript
+    percentage: 70
+  - name: CSS3
     percentage: 52
-  - name: Photoshop
-    percentage: 77
+  - name: Angular
+    percentage: 40
+  - name: JavaScript
+    percentage: 60
