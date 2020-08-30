@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="" />
+    <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/about.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/about.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/portfolio.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/portfolio.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +71,8 @@
       <workItem from="1595487705753" duration="335000" />
       <workItem from="1595488049829" duration="105000" />
       <workItem from="1596105093823" duration="263000" />
+      <workItem from="1596481061704" duration="1238000" />
+      <workItem from="1598786963272" duration="6061000" />
     </task>
     <servers />
   </component>
@@ -105,17 +113,17 @@
       <screen x="63" y="27" width="3377" height="1413" />
     </state>
     <state x="2079" y="368" key="SettingsEditor/63.27.3377.1413@63.27.3377.1413" timestamp="1596105103217" />
-    <state x="1845" y="127" width="1476" height="1213" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595188730613">
+    <state x="1845" y="127" width="1476" height="1213" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596481663740">
       <screen x="63" y="27" width="3377" height="1413" />
     </state>
-    <state x="1845" y="127" width="1476" height="1213" key="com.intellij.history.integration.ui.views.FileHistoryDialog/63.27.3377.1413@63.27.3377.1413" timestamp="1595188730613" />
+    <state x="1845" y="127" width="1476" height="1213" key="com.intellij.history.integration.ui.views.FileHistoryDialog/63.27.3377.1413@63.27.3377.1413" timestamp="1596481663740" />
     <state x="1407" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1595170854947">
       <screen x="63" y="27" width="3377" height="1413" />
     </state>
     <state x="1407" y="560" key="com.intellij.ide.util.TipDialog/63.27.3377.1413@63.27.3377.1413" timestamp="1595170854947" />
-    <state x="507" y="97" width="2103" height="1110" key="find.popup" timestamp="1595190242642">
+    <state x="507" y="97" width="2103" height="1110" key="find.popup" timestamp="1598796411920">
       <screen x="63" y="27" width="3377" height="1413" />
     </state>
-    <state x="507" y="97" width="2103" height="1110" key="find.popup/63.27.3377.1413@63.27.3377.1413" timestamp="1595190242642" />
+    <state x="507" y="97" width="2103" height="1110" key="find.popup/63.27.3377.1413@63.27.3377.1413" timestamp="1598796411920" />
   </component>
 </project>
