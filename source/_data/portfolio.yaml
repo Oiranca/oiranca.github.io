@@ -1,62 +1,68 @@
-title: Works
-subtitle: I build the real value.
+title: Proyectos
+subtitle: Siempre aprendiendo.
 
 items:
-#1
-  - grid_class: "col-xs-12 col-sm-6 col-md-8 margin-b-4"
-    image: "img/japon/templo.jpg"
+  #1
+  - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
+    image: "img/homeWork/Logo_HomeworK.png"
     hide_text: "Hide"
-    title: "Art Of Coding"
-    subtitle: "Clean &amp; Minimalistic Design"
-    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-    "
-    cta: "Show me more"
-    href: "#"
-    tags:
-      - text: "Design, "
-        href: "https://keenthemes.com/"
-      - text: "Coding, "
-        href: "https://keenthemes.com/"
-      - text: "Pedro"
-        href: "https://keenthemes.com/"
-    parameters:
-      - title: "Project Leader"
-        text: "John Doe"
-      - title: "Designer"
-        text: "Keenthemes"
-      - title: "Developer"
-        text: " Alisa Keys"
-      - title: "Customer"
-        text: "Mark Doe"
+    title: "HomeWork (Android / Web)"
+    subtitle: "Proyecto en Android y su versión Web"
+    description: "<h2><b>HomeWork en Android</b> </h2>
+    <p>En la versión de <b>android</b> he usado como tecnología <b>Java 8</b>, los datos de lo usuarios y todo lo necesario para el funcionamiento de
+    la aplicación están alojados<b> en Firebase</b>.
+    <h2><b>HomeWork Web</b> </h2>
+    <p>En la versión <b>Web</b> he realizado la parte del frontend con <b>Angular 8</b> mientras que el backend ha sido desarrollado con <b>Node.js y Express</b>,
+    montando una base de datos en <b>Mongodb</b>.</p>
 
-#2
-  - grid_class: "col-xs-12 col-sm-6 col-md-4 margin-b-4"
-    image: "img/homeWork/login_homework.png"
-    hide_text: "Hide"
-    title: "HomeWork"
-    subtitle: "Proyecto Android"
-    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-    "
-    cta: "Show me more"
-    href: "#"
+    <h4><b><i>La versión web sigue en desarrollo.</i></b></h4>"
+    #cta: "Show me more"
+    #href: "#"
     tags:
-      - text: "Design, "
-        href: "https://keenthemes.com/"
-      - text: "Coding, "
-        href: "https://keenthemes.com/"
-      - text: "Portfolio"
-        href: "https://keenthemes.com/"
+      - text: "Versión Android"
+        href: "https://github.com/Oiranca/pgl-project"
+      - text: "Versión Web (Frontend) "
+        href: "https://github.com/Oiranca/frontend-homework"
+      - text: "Versión Web (Backend)"
+        href: "https://github.com/Oiranca/backend-homework"
     parameters:
-      - title: "Project Leader"
-        text: "John Doe"
-      - title: "Designer"
-        text: "Keenthemes"
-      - title: "Developer"
-        text: " Alisa Keys"
-      - title: "Customer"
-        text: "Mark Doe"
+      - title: "Versión en Android"
+        text: "Java / Firebase"
+      - title: "Versión Web"
+        text: "Angular 8 / Node.js / Express / Mongodb"
+#      - title: "Angular 8 / Node.js / Express / Mongodb"
+#        text: " Alisa Keys"
+#      - title: "Customer"
+#        text: "Mark Doe"
+
+
+#  #2
+#  - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
+#    image: "img/homeWork/homework_angular.png"
+#    hide_text: "Hide"
+#    title: "HomeWork Android"
+#    subtitle: "Proyecto Android"
+#    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+#    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+#    "
+#    cta: "Show me more"
+#    href: "#"
+#    tags:
+#      - text: "Design, "
+#        href: "https://keenthemes.com/"
+#      - text: "Coding, "
+#        href: "https://keenthemes.com/"
+#      - text: "Portfolio"
+#        href: "https://keenthemes.com/"
+#    parameters:
+#      - title: "Project Leader"
+#        text: "John Doe"
+#      - title: "Designer"
+#        text: "Keenthemes"
+#      - title: "Developer"
+#        text: " Alisa Keys"
+#      - title: "Customer"
+#        text: "Mark Doe"
 
 ##3
 #  - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
