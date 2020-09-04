@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_admin-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_admin-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_data/contact.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/contact.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_data/menu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/menu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/archive_item/first_post_item.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/archive_item/first_post_item.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/home/contact/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/home/contact/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/base/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/base/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/components/_social-icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/components/_social-icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +65,7 @@
       <workItem from="1598881958646" duration="2743000" />
       <workItem from="1598884732071" duration="1218000" />
       <workItem from="1598970408790" duration="6028000" />
-      <workItem from="1599055904899" duration="8775000" />
+      <workItem from="1599055904899" duration="9087000" />
     </task>
     <servers />
   </component>
