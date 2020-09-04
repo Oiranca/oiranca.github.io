@@ -56,9 +56,17 @@
 ------------------------------------------------------------------*/
 
 .content {
-	padding-top: 40px;
-	padding-bottom: 40px;
-    text-align:center;
+    padding: 40px 10rem;
+
+}
+.content > p {
+
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+.post {
+    text-align: center;
 }
 
 .content-sm {

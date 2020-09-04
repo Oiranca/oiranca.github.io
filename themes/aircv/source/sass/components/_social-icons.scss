@@ -6,16 +6,18 @@
 	display: inline-block;
 	@include size(40px);
 	@include font($size: 16px);
-	color: $color-white;
+	color: $color-heading;
+
 	text-align: center;
 	border-radius: 50%;
 	vertical-align: middle;
+	background: $color-white;
 	padding: 11px;
 	@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 
 	&:hover {
-		color: $color-heading;
-		background: $color-white;
+		color: $color-white;
+		background: #0f0f0f;
 		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 	}
 }

@@ -1,16 +1,16 @@
-- text: Home
+- text: Incio
   href: "#body"
 
-- text: About
+- text: Un poco de mí
   href: "#about"
 
-- text: Experience
+- text: Experiencia
   href: "#experience"
 
-- text: Work
+- text: Proyectos
   href: "#work"
 
-- text: Contact
+- text: Contacto
   href: "#contact"
 
 - text: Blog
