@@ -3,13 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:  Samuel Romero Arbelo
+title:  Samuel.R.A
 subtitle: 'Junior Developer'
 description: ''
 keywords:
 author: Samuel Romero Arbelo
-language: es
-timezone: ''
+language: es-ES
+timezone: 'Atlantic/Canary'
+favicon: "img/favicon/favicon-16x16.png"
+favicon_all: "img/favicon"
 
 
 
