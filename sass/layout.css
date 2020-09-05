@@ -210,7 +210,11 @@ h4 {
 
 @media (max-width: 991px) {
   #post {
-    padding: 20px 40px; } }
+    padding: 20px 40px; }
+  #blog {
+    padding: 120px 20px; }
+  h1 {
+    font-size: 30px; } }
 
 #page {
   padding: 80px 60px; }
