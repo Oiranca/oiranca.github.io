@@ -90,3 +90,4 @@ typings/
 # Public
 public/
 .deploy_git/
+.idea/
