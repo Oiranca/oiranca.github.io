@@ -113,5 +113,8 @@ responsive_images:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Oiranca/oiranca.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: master
 
