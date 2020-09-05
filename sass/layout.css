@@ -214,7 +214,11 @@ h4 {
   #blog {
     padding: 120px 20px; }
   h1 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  p.date {
+    text-align: center; }
+  p {
+    text-align: justify; } }
 
 #page {
   padding: 80px 60px; }
