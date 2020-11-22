@@ -1,14 +1,14 @@
 - text: Github
-  href: "#"
+  href: "https://github.com/Oiranca"
   icon: "icon-social-github"
 
 - text: Twitter
-  href: "#"
+  href: "https://twitter.com/Oiranca"
   #icon: "fab fa-twitter"
   icon: "icon-social-twitter"
 
 - text: Linkedin
-  href: "#"
+  href: "https://www.linkedin.com/in/samuel-romero-arbelo/"
   #icon: "fab fa-linkedin-in"
   icon: "icon-social-linkedin"
 

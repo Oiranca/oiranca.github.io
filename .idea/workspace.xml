@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oiranca.github.io.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_data/logo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/logo.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/menu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/menu.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/social.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/social.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/head/tracking.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/head/tracking.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/layout.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/base/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/base/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/base/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/base/_post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_work.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +39,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/img/homeWork" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomeWork/backend-homework" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -45,6 +63,7 @@
       <recent name="$PROJECT_DIR$/source/img/perfil" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -70,11 +89,20 @@
       <workItem from="1599055904899" duration="9087000" />
       <workItem from="1599297712056" duration="8626000" />
       <workItem from="1599307687741" duration="278000" />
+      <workItem from="1599331170171" duration="1973000" />
+      <workItem from="1599409792111" duration="1545000" />
+      <workItem from="1599551003839" duration="164000" />
+      <workItem from="1599902877518" duration="1192000" />
+      <workItem from="1599994960094" duration="298000" />
+      <workItem from="1600420246218" duration="5000" />
+      <workItem from="1600430794013" duration="3000" />
+      <workItem from="1600628142043" duration="131000" />
+      <workItem from="1606069251961" duration="1475000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -94,6 +122,10 @@
       <screen x="59" y="27" width="3381" height="1413" />
     </state>
     <state x="1281" y="562" width="927" height="341" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599303090898" />
+    <state x="1532" y="490" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599995014172">
+      <screen x="59" y="27" width="3381" height="1413" />
+    </state>
+    <state x="1532" y="490" width="424" height="484" key="FileChooserDialogImpl/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599995014172" />
     <state width="1633" height="396" key="GridCell.Tab.0.bottom" timestamp="1595172695676">
       <screen x="63" y="27" width="3377" height="1413" />
     </state>
@@ -124,12 +156,12 @@
       <screen x="63" y="27" width="3377" height="1413" />
     </state>
     <state x="1407" y="560" key="com.intellij.ide.util.TipDialog/63.27.3377.1413@63.27.3377.1413" timestamp="1595170854947" />
-    <state x="713" y="336" width="1196" height="850" key="find.popup" timestamp="1599305864307">
+    <state x="713" y="336" width="1196" height="850" key="find.popup" timestamp="1599410135781">
       <screen x="59" y="27" width="3381" height="1413" />
     </state>
     <state x="761" y="120" width="1159" height="828" key="find.popup/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1598883929194" />
     <state x="761" y="120" width="1159" height="828" key="find.popup/59.27.1861.1053@59.27.1861.1053" timestamp="1599148124896" />
-    <state x="713" y="336" width="1196" height="850" key="find.popup/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599305864307" />
+    <state x="713" y="336" width="1196" height="850" key="find.popup/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599410135781" />
     <state x="928" y="27" width="1196" height="850" key="find.popup/59.27.3381.1413/656.1440.1920.1080@656.1440.1920.1080" timestamp="1599299773628" />
     <state x="607" y="33" width="2106" height="1961" key="find.popup/59.27.3381.2493@59.27.3381.2493" timestamp="1599209685637" />
     <state x="1337" y="152" width="2103" height="1110" key="find.popup/63.27.3377.1413@63.27.3377.1413" timestamp="1598817225202" />
