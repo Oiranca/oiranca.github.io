@@ -17,7 +17,7 @@ favicon_all: "img/favicon"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.samuelromeroarbelo.com/
+url: http://localhost:4000
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -119,3 +119,6 @@ deploy:
   branch: master
 
 google_analytics: UA-177376674-1
+
+# Disqus comments
+disqus_shortname: Blog_Hexo

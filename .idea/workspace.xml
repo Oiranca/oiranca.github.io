@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/oiranca.github.io.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_data/menu.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/menu.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_data/social.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/social.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/head/tracking.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/head/tracking.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/layout.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/base/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/base/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/base/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/base/_post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_work.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/React-Testing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/archive_item/post_item.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/archive_item/post_item.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/article.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/article.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +33,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomeWork/backend-homework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HuellaPositiva/huelladigital-backend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,7 +90,15 @@
       <workItem from="1600420246218" duration="5000" />
       <workItem from="1600430794013" duration="3000" />
       <workItem from="1600628142043" duration="131000" />
-      <workItem from="1606069251961" duration="1475000" />
+      <workItem from="1606069251961" duration="3326000" />
+      <workItem from="1606074894131" duration="753000" />
+      <workItem from="1606075656410" duration="1545000" />
+      <workItem from="1606125177126" duration="42000" />
+      <workItem from="1606152488159" duration="1459000" />
+      <workItem from="1606297397297" duration="234000" />
+      <workItem from="1606584272425" duration="1270000" />
+      <workItem from="1606722356156" duration="10000" />
+      <workItem from="1606902621941" duration="86000" />
     </task>
     <servers />
   </component>
@@ -110,55 +111,25 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2185" y="395" width="800" height="677" key="#Notifications" timestamp="1595172381584">
-      <screen x="63" y="27" width="3377" height="1413" />
-    </state>
-    <state x="2185" y="395" width="800" height="677" key="#Notifications/63.27.3377.1413@63.27.3377.1413" timestamp="1595172381584" />
-    <state x="2185" y="394" width="800" height="677" key="#Usage_Scope" timestamp="1595175074507">
-      <screen x="63" y="27" width="3377" height="1413" />
-    </state>
-    <state x="2185" y="394" width="800" height="677" key="#Usage_Scope/63.27.3377.1413@63.27.3377.1413" timestamp="1595175074507" />
     <state x="1281" y="562" width="927" height="341" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1599303090898">
       <screen x="59" y="27" width="3381" height="1413" />
     </state>
     <state x="1281" y="562" width="927" height="341" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599303090898" />
-    <state x="1532" y="490" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599995014172">
-      <screen x="59" y="27" width="3381" height="1413" />
+    <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl" timestamp="1606297640802">
+      <screen x="49" y="27" width="1871" height="1053" />
     </state>
+    <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1606297640802" />
     <state x="1532" y="490" width="424" height="484" key="FileChooserDialogImpl/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599995014172" />
-    <state width="1633" height="396" key="GridCell.Tab.0.bottom" timestamp="1595172695676">
-      <screen x="63" y="27" width="3377" height="1413" />
-    </state>
-    <state width="1633" height="396" key="GridCell.Tab.0.bottom/63.27.3377.1413@63.27.3377.1413" timestamp="1595172695676" />
-    <state width="1633" height="396" key="GridCell.Tab.0.center" timestamp="1595172695675">
-      <screen x="63" y="27" width="3377" height="1413" />
-    </state>
-    <state width="1633" height="396" key="GridCell.Tab.0.center/63.27.3377.1413@63.27.3377.1413" timestamp="1595172695675" />
-    <state width="1633" height="396" key="GridCell.Tab.0.left" timestamp="1595172695674">
-      <screen x="63" y="27" width="3377" height="1413" />
-    </state>
-    <state width="1633" height="396" key="GridCell.Tab.0.left/63.27.3377.1413@63.27.3377.1413" timestamp="1595172695674" />
-    <state width="1633" height="396" key="GridCell.Tab.0.right" timestamp="1595172695675">
-      <screen x="63" y="27" width="3377" height="1413" />
-    </state>
-    <state width="1633" height="396" key="GridCell.Tab.0.right/63.27.3377.1413@63.27.3377.1413" timestamp="1595172695675" />
-    <state x="2079" y="368" key="SettingsEditor" timestamp="1596105103217">
-      <screen x="63" y="27" width="3377" height="1413" />
-    </state>
-    <state x="2079" y="368" key="SettingsEditor/63.27.3377.1413@63.27.3377.1413" timestamp="1596105103217" />
     <state x="1843" y="128" width="1459" height="1214" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599302005707">
       <screen x="59" y="27" width="3381" height="1413" />
     </state>
     <state x="1041" y="102" width="814" height="904" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1598885035845" />
     <state x="1843" y="128" width="1459" height="1214" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599302005707" />
-    <state x="1845" y="127" width="1476" height="1213" key="com.intellij.history.integration.ui.views.FileHistoryDialog/63.27.3377.1413@63.27.3377.1413" timestamp="1596481663740" />
-    <state x="1407" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1595170854947">
-      <screen x="63" y="27" width="3377" height="1413" />
+    <state x="950" y="1870" width="680" height="650" key="find.popup" timestamp="1606153350720">
+      <screen x="304" y="1440" width="1920" height="1080" />
     </state>
-    <state x="1407" y="560" key="com.intellij.ide.util.TipDialog/63.27.3377.1413@63.27.3377.1413" timestamp="1595170854947" />
-    <state x="713" y="336" width="1196" height="850" key="find.popup" timestamp="1599410135781">
-      <screen x="59" y="27" width="3381" height="1413" />
-    </state>
+    <state x="950" y="1870" width="680" height="650" key="find.popup/49.27.2511.1413/304.1440.1920.1080@304.1440.1920.1080" timestamp="1606153350720" />
+    <state x="1190" y="590" width="1200" height="850" key="find.popup/49.27.3391.1413/3440.360.1920.1080@49.27.3391.1413" timestamp="1606076488272" />
     <state x="761" y="120" width="1159" height="828" key="find.popup/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1598883929194" />
     <state x="761" y="120" width="1159" height="828" key="find.popup/59.27.1861.1053@59.27.1861.1053" timestamp="1599148124896" />
     <state x="713" y="336" width="1196" height="850" key="find.popup/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599410135781" />

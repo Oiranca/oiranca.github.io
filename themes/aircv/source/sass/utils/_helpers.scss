@@ -61,8 +61,8 @@
 }
 .content > p {
 
-    padding-left: inherit;
-    padding-right: inherit;
+    padding-left: initial;
+    padding-right: initial;
 }
 
 @media (max-width: $screen-sm-min) {
