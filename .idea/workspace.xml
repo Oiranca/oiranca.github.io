@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_data/experience.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/experience.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_service.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_service.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,11 +125,12 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1606297640802" />
-    <state x="1398" y="1870" width="680" height="650" key="find.popup" timestamp="1608928573708">
-      <screen x="752" y="1440" width="1920" height="1080" />
+    <state x="768" y="286" width="1201" height="851" key="find.popup" timestamp="1608935087979">
+      <screen x="49" y="27" width="3391" height="1413" />
     </state>
     <state x="950" y="1870" width="680" height="650" key="find.popup/49.27.2511.1413/304.1440.1920.1080@304.1440.1920.1080" timestamp="1606153350720" />
     <state x="1190" y="590" width="1200" height="850" key="find.popup/49.27.3391.1413/3440.360.1920.1080@49.27.3391.1413" timestamp="1606076488272" />
+    <state x="768" y="286" width="1201" height="851" key="find.popup/49.27.3391.1413/752.1440.1920.1080@49.27.3391.1413" timestamp="1608935087979" />
     <state x="1398" y="1870" width="680" height="650" key="find.popup/49.27.3391.1413/752.1440.1920.1080@752.1440.1920.1080" timestamp="1608928573708" />
   </component>
 </project>
