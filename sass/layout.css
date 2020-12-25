@@ -442,27 +442,27 @@ h4 {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear; }
-  .service:hover .service-element {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    -moz-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    transition-duration: 300ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
-  .service:hover .service-info {
-    -webkit-transform: translate3d(0, -30%, 0);
-    -moz-transform: translate3d(0, -30%, 0);
-    transform: translate3d(0, -30%, 0);
-    transition-duration: 300ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-    margin-top: 10rem;
+  /*.service:hover .service-element {*/
+  /*  opacity: 0;*/
+  /*  -webkit-transform: translate3d(0, -100%, 0);*/
+  /*  -moz-transform: translate3d(0, -100%, 0);*/
+  /*  transform: translate3d(0, -100%, 0);*/
+  /*  transition-duration: 300ms;*/
+  /*  transition-property: all;*/
+  /*  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }*/
+  /*.service:hover .service-info {*/
+  /*  -webkit-transform: translate3d(0, -30%, 0);*/
+  /*  -moz-transform: translate3d(0, -30%, 0);*/
+  /*  transform: translate3d(0, -30%, 0);*/
+  /*  transition-duration: 300ms;*/
+  /*  transition-property: all;*/
+  /*  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);*/
+  /*  margin-top: 10rem;*/
 
-  }
-  .service:hover .service-button {
-    visibility: visible;
-    opacity: 1; }
+  /*}*/
+  /*.service:hover .service-button {*/
+  /*  visibility: visible;*/
+  /*  opacity: 1; }*/
 
 @media (max-width: 991px) {
   .service .service-button {
