@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/React-Testing.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/archive_item/post_item.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/archive_item/post_item.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/article.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/hexo/article.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/utils/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/about.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/about.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/experience.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/experience.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,19 @@
       <recent name="$PROJECT_DIR$/source/img/perfil" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -99,6 +109,7 @@
       <workItem from="1606584272425" duration="1270000" />
       <workItem from="1606722356156" duration="10000" />
       <workItem from="1606902621941" duration="86000" />
+      <workItem from="1608928124784" duration="745000" />
     </task>
     <servers />
   </component>
@@ -111,30 +122,15 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1281" y="562" width="927" height="341" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1599303090898">
-      <screen x="59" y="27" width="3381" height="1413" />
-    </state>
-    <state x="1281" y="562" width="927" height="341" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599303090898" />
     <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl" timestamp="1606297640802">
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1606297640802" />
-    <state x="1532" y="490" width="424" height="484" key="FileChooserDialogImpl/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599995014172" />
-    <state x="1843" y="128" width="1459" height="1214" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599302005707">
-      <screen x="59" y="27" width="3381" height="1413" />
-    </state>
-    <state x="1041" y="102" width="814" height="904" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1598885035845" />
-    <state x="1843" y="128" width="1459" height="1214" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599302005707" />
-    <state x="950" y="1870" width="680" height="650" key="find.popup" timestamp="1606153350720">
-      <screen x="304" y="1440" width="1920" height="1080" />
+    <state x="1398" y="1870" width="680" height="650" key="find.popup" timestamp="1608928573708">
+      <screen x="752" y="1440" width="1920" height="1080" />
     </state>
     <state x="950" y="1870" width="680" height="650" key="find.popup/49.27.2511.1413/304.1440.1920.1080@304.1440.1920.1080" timestamp="1606153350720" />
     <state x="1190" y="590" width="1200" height="850" key="find.popup/49.27.3391.1413/3440.360.1920.1080@49.27.3391.1413" timestamp="1606076488272" />
-    <state x="761" y="120" width="1159" height="828" key="find.popup/59.27.1861.1053/1920.0.1920.1080@59.27.1861.1053" timestamp="1598883929194" />
-    <state x="761" y="120" width="1159" height="828" key="find.popup/59.27.1861.1053@59.27.1861.1053" timestamp="1599148124896" />
-    <state x="713" y="336" width="1196" height="850" key="find.popup/59.27.3381.1413/656.1440.1920.1080@59.27.3381.1413" timestamp="1599410135781" />
-    <state x="928" y="27" width="1196" height="850" key="find.popup/59.27.3381.1413/656.1440.1920.1080@656.1440.1920.1080" timestamp="1599299773628" />
-    <state x="607" y="33" width="2106" height="1961" key="find.popup/59.27.3381.2493@59.27.3381.2493" timestamp="1599209685637" />
-    <state x="1337" y="152" width="2103" height="1110" key="find.popup/63.27.3377.1413@63.27.3377.1413" timestamp="1598817225202" />
+    <state x="1398" y="1870" width="680" height="650" key="find.popup/49.27.3391.1413/752.1440.1920.1080@752.1440.1920.1080" timestamp="1608928573708" />
   </component>
 </project>

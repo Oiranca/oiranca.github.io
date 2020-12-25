@@ -2,9 +2,10 @@ title: Experiencia
 subtitle: La propia vida.
 
 items:
-  - title: En construcción
-    content: "Esperando mi primera oportunidad"
-#    href: "#"
+  - title: Prácticas de Empresa en Lean Mind
+    content: "Las prácticas las he desarrollado como colaborador en un proyecto opensource para la
+     plataforma Huella Positiva, en la cual hemos desarrollado el frontend con React."
+    href: "https://leanmind.es/es/"
 #    button: "Tell me more"
     icon: "icon-info"
     featured: false
