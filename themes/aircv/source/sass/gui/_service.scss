@@ -35,7 +35,7 @@
 		.service-info {
 			@include translate3d(0,-30%,0);
 			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
-			margin-top: 5rem;
+			margin-top: 60px;
 		}
 
 		.service-button {
