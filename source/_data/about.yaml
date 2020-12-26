@@ -16,17 +16,17 @@ description: "<p>Mi nombre es <strong>Samuel Romero Arbelo</strong> soy de un pe
                   Backend y para finalizar esta formación, uno de Agile.</p>"
 
 skills:
-  - name: Java
+  - name: JavaScript / TypeScript
     percentage: 60
+  - name: React
+    percentage: 40
   - name: HTML5
     percentage: 70
   - name: CSS3
     percentage: 52
   - name: Angular
     percentage: 40
-  - name: JavaScript / TypeScript
+  - name: Java
     percentage: 60
-  - name: React
-    percentage: 40
 #  - name: Redux
 #    percentage: 30
