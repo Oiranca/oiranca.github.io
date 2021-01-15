@@ -185,10 +185,9 @@
     <p class="date"> Fri Jan 15 2021 07:49:34 GMT+0000 </p>
     
     <p><img src="https://i.imgur.com/StMOQvK.png" alt=""></p>
-<p>Como vimos en la primera parte de esrte <a href="https://www.samuelromeroarbelo.com/2020/11/28/React-Testing/" target="_blank" rel="noopener">post</a> , <strong>React Testing</strong> es una librería para realizar test de los componente de react de manera fácil y ligera, está construida sobre <em>DOM Testing Library</em>.</p>
-<p>En esta segunda parte vamos a ver las <strong>queries</strong> o <strong>consultas</strong>.</p>
-<h2 id="Queries-o-Consultas"><a href="#Queries-o-Consultas" class="headerlink" title="Queries o Consultas"></a>Queries o Consultas</h2><ul>
-<li><h4 id="1-Variantes"><a href="#1-Variantes" class="headerlink" title="1- Variantes"></a>1- Variantes</h4><ul>
+<p>En esta segunda parte vamos a ver las <strong>queries</strong> o <strong>consultas</strong> las cuales nos van ayudar para la realización de los test.</p>
+<h3 id="Queries-o-Consultas"><a href="#Queries-o-Consultas" class="headerlink" title="Queries o Consultas"></a>Queries o Consultas</h3><ul>
+<li><h5 id="Variantes"><a href="#Variantes" class="headerlink" title="Variantes"></a>Variantes</h5><ul>
 <li><p><strong>Variantes que devuelven el primer elemento</strong></p>
 <ul>
 <li><p><strong>getBy :</strong> Retorna el primer nodo que coincide para una consulta, la cual arroja un error si no encuentra un elemento coincidente o si se encuentra más de uno.</p>
@@ -213,23 +212,25 @@
 </li>
 </ul>
 <ul>
-<li><h4 id="2-Opciones"><a href="#2-Opciones" class="headerlink" title="2- Opciones"></a>2- Opciones</h4><p>  Los argumentos de una consulta pueden ser <em>string, expresion regular o funciones</em>, además podemos encontrar opciones para ajustar como el nodo es analizado, la cuales son :</p>
+<li><h5 id="Opciones"><a href="#Opciones" class="headerlink" title="Opciones"></a>Opciones</h5></li>
+</ul>
+<p>Los argumentos de una consulta pueden ser <em>string, expresion regular o funciones</em>, además podemos encontrar opciones para ajustar como el nodo es analizado, la cuales son :</p>
 <ul>
-<li><p>Precision:</p>
+<li><p><em>Precision:</em></p>
 <p> Algunas Apis acepta un objeto como final del argumento que se le pasa en la consulta y que puede afectar la precisión de la coincidencias de las <em>string</em> pasada:</p>
 <ul>
-<li><p><strong>exact :</strong> Por defecto viene en <em>true</em>, coincide con cadenas completas y distingue entre mayúsculas y minúsculas. Cuando es inicializado a <em>false</em> coincide con subcadenas y no distingue entre mayúsculas y minúsculas.<br>En la documentación aconsejan que usar <em>expresiones regulares</em> porque te dan más control sobre la coincidencia aproximada.</p>
+<li><p><strong>exact :</strong> Por defecto viene en <em>true</em>, coincide con cadenas completas y distingue entre mayúsculas y minúsculas. Cuando es inicializado a <em>false</em> coincide con subcadenas y no distingue entre mayúsculas y minúsculas.<br>  En la documentación aconsejan que usar <em>expresiones regulares</em> porque te dan más control sobre la coincidencia aproximada.</p>
 </li>
 <li><p><strong>normalizer :</strong> Con esta opción lo que hacemos es anular el comportamiento de <em>Normalization</em>, la cual se ejecuta siempre antes de la lógica para la búsqueda. </p>
 </li>
 </ul>
 </li>
-<li><p>Normalización:</p>
+<li><p><em>Normalización:</em></p>
 <p>  Como comentamos en una de la opciones de la precisión, esta se ejecuta antes de la lógica y por defecto quita los espacios en blanco antes y después del texto y regulariza los espacios entre palabras a uno sólo.</p>
 <p>  Si queremo evitar esta normalización o poner opciones alternativas, les podemos pasar una <strong>normalizer function</strong>, la cual recibirá una <em>string</em> y espera una versión normalizada de dicha <em>string</em>.</p>
 <p>  Tenemos el método <strong>getDefaultNormalizer</strong>, el cual nos permite introducirlo en nuestra opciones y pasarle como parámetro:</p>
 <ul>
-<li><strong>trim:</strong> El cual nos quitará los espacios en blanco, tanto al principio como al final de la cadena, viene como predeterminado en <em>true</em>.</li>
+<li><strong>trim:</strong> El cual nos quitará los espacios en blanco, tanto al principio como al final de la cadena, viene como predeterminado en <em>true</em>.<ul>
 <li><strong>collapseWhitespace:</strong> Nos quitaría los espacios extras entre palabras dejándolo solamentes en uno, viene por defecto en <em>true</em>.</li>
 </ul>
 </li>
@@ -280,7 +281,7 @@
 <p>   <strong>Test</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &#39;react&#39;;</span><br><span class="line">import * as Testing from &#39;@testing-library&#x2F;react&#39;;</span><br><span class="line">import InputWithPlaceHolder from &quot;.&#x2F;InputWithPlaceHolder&quot;;</span><br><span class="line"></span><br><span class="line">test(&#39;test with getBy Placeholder&#39;, () &#x3D;&gt; &#123;</span><br><span class="line"></span><br><span class="line">        Testing.render(&lt;InputWithPlaceHolder&#x2F;&gt;);</span><br><span class="line">        Testing.screen.getAllByPlaceholderText(&#39;I am a placeholder&#39;)</span><br><span class="line"></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 
-<h6 id="Buscar-por-placeholder-no-es-la-mejor-opcion-por-lo-general-se-usa-getByLabelText"><a href="#Buscar-por-placeholder-no-es-la-mejor-opcion-por-lo-general-se-usa-getByLabelText" class="headerlink" title="Buscar por placeholder no es la mejor opción, por lo general se usa getByLabelText"></a><em>Buscar por placeholder no es la mejor opción, por lo general se usa getByLabelText</em></h6><ul>
+<h6 id="Buscar-por-placeholder-no-es-la-mejor-opcion-por-lo-general-se-usa-getByLabelText"><a href="#Buscar-por-placeholder-no-es-la-mejor-opcion-por-lo-general-se-usa-getByLabelText" class="headerlink" title="~ Buscar por placeholder no es la mejor opción, por lo general se usa getByLabelText ~"></a>~ <em>Buscar por placeholder no es la mejor opción, por lo general se usa getByLabelText</em> ~</h6><ul>
 <li><p><strong>ByText</strong></p>
 <p>  Nos buscará  en todos lo elementos que contengan texto en el nodo con <em>textContent</em> que coincida con el <em>TextMatch</em> que le pasemos. Además funciona con <em>inputs</em> cuyo atributos sean del tipo <em>submit o button</em>. </p>
 <p>  Podemos pasarle como opción <em>ignore</em> en estado <em>false</em> si queremos evitar que nos devuelva como <em>true</em> una etiqueta script.</p>
