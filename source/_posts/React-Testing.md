@@ -4,6 +4,8 @@ tags: []
 categories: []
 date: 2020-11-28 13:14:00
 ---
+![](https://i.imgur.com/StMOQvK.png)
+
 Esta semana, me he unido al equipo de **frontend** en un proyecto **open source** para la plataforma [***Huella positiva***](https://huellapositiva.com/), en dicho proyecto contribuyo con mis conocimientos en React, ya que hace poco terminé un bootcamp orientado a desarrollo web.
 
 La verdad, que el entrar a formar parte de este equipo de desarrollo, ha sido una experiencia bastante buena, donde la sensación de aprender cada día, es de lo mejor, y además en un ambiente agradable donde todos te animan a seguir mejorando.

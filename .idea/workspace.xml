@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_data/experience.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/experience.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_service.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/source/sass/gui/_service.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/React-Testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/React-Testing.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1euTphf2dnp5OkHeW8Q7H8l0exH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -24,12 +28,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HuellaPositiva/huelladigital-backend" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.20.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,21 +56,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/img/perfil" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -111,7 +101,10 @@
       <workItem from="1606722356156" duration="10000" />
       <workItem from="1606902621941" duration="86000" />
       <workItem from="1608928124784" duration="745000" />
-      <workItem from="1608992506702" duration="1383000" />
+      <workItem from="1608992506702" duration="1723000" />
+      <workItem from="1609062023431" duration="13000" />
+      <workItem from="1610696726839" duration="850000" />
+      <workItem from="1610702791878" duration="2130000" />
     </task>
     <servers />
   </component>
@@ -128,9 +121,10 @@
       <screen x="49" y="27" width="1871" height="1053" />
     </state>
     <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1606297640802" />
-    <state x="768" y="286" width="1201" height="851" key="find.popup" timestamp="1608935087979">
-      <screen x="49" y="27" width="3391" height="1413" />
+    <state x="446" y="220" width="1032" height="716" key="find.popup" timestamp="1608994072518">
+      <screen x="49" y="27" width="1871" height="1053" />
     </state>
+    <state x="446" y="220" width="1032" height="716" key="find.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1608994072518" />
     <state x="950" y="1870" width="680" height="650" key="find.popup/49.27.2511.1413/304.1440.1920.1080@304.1440.1920.1080" timestamp="1606153350720" />
     <state x="1190" y="590" width="1200" height="850" key="find.popup/49.27.3391.1413/3440.360.1920.1080@49.27.3391.1413" timestamp="1606076488272" />
     <state x="768" y="286" width="1201" height="851" key="find.popup/49.27.3391.1413/752.1440.1920.1080@49.27.3391.1413" timestamp="1608935087979" />
