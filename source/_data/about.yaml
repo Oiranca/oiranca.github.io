@@ -11,13 +11,14 @@ description: "<p>Mi nombre es <strong>Samuel Romero Arbelo</strong> soy de un pe
                   no poder dedicarme a ello.
 
                   <p>Actualmente, he terminado el <strong>Ciclo Superior de Desarrollo de Aplicaciones Multiplataformas</strong>, el cual se ha centrado en adquirir
-                   comocimientos en tecnologías como <strong>Java</strong>, en bases de datos <strong>SQL</strong> y en el último curso vimos <strong>Android</strong>.</p>
+                   comocimientos en leguaje de proagramación como <strong>Java</strong>, en base de datos <strong>SQL</strong> o framework como <strong>Android</strong>, al terminar he
+                   podido realizar las prácticas de empresa en <strong>Lean Mind </strong>.</p>
 
                    <p>Para introducirme en <strong>Frontend</strong> he realizado varios cursos y un bootcamp donde he podido adquirir conocimientos
                   de <strong>JavaScript</strong>, <strong>Angular</strong>, <strong>HTML5</strong>, <strong>CSS3</strong> y <strong> React </strong>.</p>
 
-                   <p>Hoy en día sigo formándome, pero esta vez con un bootcamp orientado a <strong> Backend </strong> con <strong>
-                   Express </strong>.</p>"
+                   <p>Hoy en día sigo formándome, pero esta vez con un bootcamp orientado a <strong> Backend </strong> donde he podido ver <strong>
+                   Node.js, Express, MongoDB, Git,.. </strong>.</p>"
 
 skills:
   - name: JavaScript / TypeScript
@@ -26,7 +27,7 @@ skills:
 #    percentage: 40
   - name: HTML5 / CSS3 / Sass
 #    percentage: 70
-  - name: Nodejs / Express
+  - name: Node.js / Express
     #    percentage: 40
   - name: Java
 #    percentage: 60
