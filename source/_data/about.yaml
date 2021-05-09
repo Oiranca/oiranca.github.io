@@ -10,23 +10,29 @@ description: "<p>Mi nombre es <strong>Samuel Romero Arbelo</strong> soy de un pe
                  <strong>C++</strong>, pero por capricho de la vida, mi camino no fue el de la programación, aunque siempre se quedó dentro de mí el
                   no poder dedicarme a ello.
 
-                  <p> Actualmente, he terminado el Ciclo Superior de Desarrollo de <strong>Aplicaciones Multiplataformas</strong> y por mi parte he realizado varios cursos
-                  de <strong>JavaScript</strong>, <strong>Angular</strong>, <strong>HTML5</strong>, <strong>CSS3</strong> y hoy en día sigo formándome <i><strong>(eso nunca va a parar)</strong></i>,
-                  en un bootcamp de <strong>Frontend</strong>, donde estoy reforzando conocimientos, pero también aprendiendo tenologías nuevas como <strong> React </strong>y seguiré con otro de
-                  Backend y para finalizar esta formación, uno de Agile.</p>"
+                  <p>Actualmente, he terminado el <strong>Ciclo Superior de Desarrollo de Aplicaciones Multiplataformas</strong>, el cual se ha centrado en adquirir
+                   comocimientos en tecnologías como <strong>Java</strong>, en bases de datos <strong>SQL</strong> y en el último curso vimos <strong>Android</strong>.</p>
+
+                   <p>Para introducirme en <strong>Frontend</strong> he realizado varios cursos y un bootcamp donde he podido adquirir conocimientos
+                  de <strong>JavaScript</strong>, <strong>Angular</strong>, <strong>HTML5</strong>, <strong>CSS3</strong> y <strong> React </strong>.</p>
+
+                   <p>Hoy en día sigo formándome, pero esta vez con un bootcamp orientado a <strong> Backend </strong> con <strong>
+                   Express </strong>.</p>"
 
 skills:
   - name: JavaScript / TypeScript
-    percentage: 60
-  - name: React
-    percentage: 40
-  - name: HTML5
-    percentage: 70
-  - name: CSS3
-    percentage: 52
-  - name: Angular
-    percentage: 40
+#    percentage: 60
+  - name: Angular / React
+#    percentage: 40
+  - name: HTML5 / CSS3 / Sass
+#    percentage: 70
+  - name: Nodejs / Express
+    #    percentage: 40
   - name: Java
-    percentage: 60
+#    percentage: 60
+#  - name: CSS3
+#    percentage: 52
+#  - name: Angular
+#    percentage: 40
 #  - name: Redux
 #    percentage: 30
