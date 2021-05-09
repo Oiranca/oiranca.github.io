@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_data/about.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/about.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Testing-segunda-parte.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Testing-segunda-parte.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/home/about/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/home/about/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/portfolio.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/portfolio.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,8 +122,23 @@
       <workItem from="1610744127079" duration="470000" />
       <workItem from="1610816092184" duration="18000" />
       <workItem from="1620553989371" duration="178000" />
-      <workItem from="1620554803453" duration="2267000" />
+      <workItem from="1620554803453" duration="10751000" />
     </task>
+    <task id="LOCAL-00001" summary="section about me modified">
+      <created>1620557322541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620557322541</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new draft">
+      <created>1620557357116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620557357116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +160,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/oiranca.github.io" />
     </ignored-roots>
+    <MESSAGE value="section about me modified" />
+    <MESSAGE value="new draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="new draft" />
   </component>
 </project>

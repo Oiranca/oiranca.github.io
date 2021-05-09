@@ -36,91 +36,98 @@ items:
 #        text: "Mark Doe"
 
 
-#  #2
-#  - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
-#    image: "img/homeWork/homework_angular.png"
-#    hide_text: "Hide"
-#    title: "HomeWork Android"
-#    subtitle: "Proyecto Android"
-#    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-#    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-#    "
-#    cta: "Show me more"
-#    href: "#"
-#    tags:
-#      - text: "Design, "
+  #2
+  - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
+    image: "img/huellapositiva/cropped-Logo-Huella-Positiva-PV-05-fondo2.png"
+    hide_text: "Hide"
+    title: "Huella Positiva (Web)"
+    subtitle: "Proyecto Colaborativo"
+    description: "<p>Es un proyecto colaborativo para una ONG llamada <i><strong>Soy Mamut</strong></i>, donde formo parte el
+     equipo de <strong>FrontEnd</strong>.</p>
+
+    <p>Juntos estamos migrando su web de <strong>Wordpress</strong> a <strong> React. </strong></p>
+    "
+    cta: "Web Original HuellaPositiva"
+    href: "https://huellapositiva.com/?fbclid=IwAR0yqc2Hwb4tNGAvt0bNT_3Uyx6kPxfuDRD226XI2b-p_hn9e8tmPEM2_8U"
+    tags:
+      - text: "Repositorio Frontend "
+        href: "https://github.com/ayudadigital/huelladigital-frontend"
+      - text: "Repositorio Backend "
+        href: "https://github.com/ayudadigital/huelladigital-backend"
+#      - text: "Portfolio"
 #        href: "https://keenthemes.com/"
+    parameters:
+      - title: "Lenguaje"
+        text: "TypeScript"
+      - title: "Testing"
+        text: "Jest / Testing Library"
+#      - title: "Librería"
+#        text: "React"
+#      - title: "Customer"
+#        text: "Mark Doe"
+
+##3
+  - grid_class: "col-xs-12 col-sm-6 col-md-6 md-margin-b-4"
+    image: "img/moviesforworld/moviesforworld.png"
+    hide_text: "Hide"
+    title: "Movies for Word (Web)"
+    subtitle: "Aplicación para buscar en The Movie Database API"
+    description: "<p>Pequeña aplicación web que nos permitirá buscar y mostrar títulos de películas, consumiendo <strong>
+     The Movie Database API</strong>. </p>
+
+     <p> Ha sido desarrollada con <strong>React</strong> y he usa la librería<strong> React Redux</strong> para controlar los estados de los componentes.</p>
+    "
+    cta: "The Movie Database API"
+    href: "https://developers.themoviedb.org/3/getting-started/introduction"
+    tags:
+      - text: "Repositorio "
+        href: "https://github.com/Oiranca/reto-final-frontend"
 #      - text: "Coding, "
 #        href: "https://keenthemes.com/"
 #      - text: "Portfolio"
 #        href: "https://keenthemes.com/"
-#    parameters:
-#      - title: "Project Leader"
-#        text: "John Doe"
-#      - title: "Designer"
-#        text: "Keenthemes"
+    parameters:
+      - title: "Lenguaje"
+        text: "JavaScript"
+      - title: "Estilo"
+        text: "Sass"
 #      - title: "Developer"
 #        text: " Alisa Keys"
 #      - title: "Customer"
 #        text: "Mark Doe"
 
-##3
-#  - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-#    image: "img/397x300/01.jpg"
-#    hide_text: "Hide"
-#    title: "Art Of Coding"
-#    subtitle: "Clean &amp; Minimalistic Design"
-#    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-#    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-#    "
-#    cta: "Show me more"
-#    href: "#"
-#    tags:
-#      - text: "Design, "
-#        href: "https://keenthemes.com/"
-#      - text: "Coding, "
-#        href: "https://keenthemes.com/"
-#      - text: "Portfolio"
-#        href: "https://keenthemes.com/"
-#    parameters:
-#      - title: "Project Leader"
-#        text: "John Doe"
-#      - title: "Designer"
-#        text: "Keenthemes"
-#      - title: "Developer"
-#        text: " Alisa Keys"
-#      - title: "Customer"
-#        text: "Mark Doe"
-#
-#
+
 ##4
-#  - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-#    image: "img/397x300/02.jpg"
-#    hide_text: "Hide"
-#    title: "Art Of Coding"
-#    subtitle: "Clean &amp; Minimalistic Design"
-#    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-#    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-#    "
+  - grid_class: "col-xs-12 col-sm-6 col-md- md-margin-b-4"
+    image: "img/ecommerce/logo-ecommerce.png"
+    hide_text: "Hide"
+    title: "Ecommerce"
+    subtitle: "Backend ecommerce"
+    description: "<p>Pequeño <strong> Backend</strong> para un supuesto comercio electrónico.</p>
+
+    <p> Está desarrollado en <strong>JavaScript</strong> con <strong>Node.js</strong>, <strong>Express.js</strong> y como
+    base de datos <strong>MongoDB</strong></p>
+    "
 #    cta: "Show me more"
 #    href: "#"
-#    tags:
-#      - text: "Design, "
-#        href: "https://keenthemes.com/"
+    tags:
+      - text: "Repositorio"
+        href: "https://github.com/Oiranca/ecommerce-backend"
 #      - text: "Coding, "
 #        href: "https://keenthemes.com/"
 #      - text: "Portfolio"
 #        href: "https://keenthemes.com/"
-#    parameters:
-#      - title: "Project Leader"
-#        text: "John Doe"
-#      - title: "Designer"
-#        text: "Keenthemes"
-#      - title: "Developer"
-#        text: " Alisa Keys"
-#      - title: "Customer"
-#        text: "Mark Doe"
-#
+    parameters:
+      - title: "Lenguaje"
+        text: "JavaScript"
+      - title: "Entorno de ejecución"
+        text: "Node.js"
+      - title: "Framework"
+        text: "Express.js"
+      - title: "Base de datos"
+        text: "MongoDB"
+
+
 ##5
 #  - grid_class: "col-xs-12 col-sm-6 col-md-4"
 #    image: "img/397x300/03.jpg"
