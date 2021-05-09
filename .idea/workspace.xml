@@ -4,8 +4,9 @@
     <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/React-Testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/React-Testing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_data/about.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/source/_data/about.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Testing-segunda-parte.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Testing-segunda-parte.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/aircv/layout/_partial/home/about/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/aircv/layout/_partial/home/about/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.20.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pruebas Generales/react-testing-library" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +57,19 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/img/perfil" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -105,29 +119,32 @@
       <workItem from="1609062023431" duration="13000" />
       <workItem from="1610696726839" duration="850000" />
       <workItem from="1610702791878" duration="2130000" />
+      <workItem from="1610742430834" duration="609000" />
+      <workItem from="1610744127079" duration="470000" />
+      <workItem from="1610816092184" duration="18000" />
+      <workItem from="1620553989371" duration="178000" />
+      <workItem from="1620554803453" duration="2267000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/oiranca.github.io" />
     </ignored-roots>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl" timestamp="1606297640802">
-      <screen x="49" y="27" width="1871" height="1053" />
-    </state>
-    <state x="864" y="372" width="374" height="361" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1606297640802" />
-    <state x="446" y="220" width="1032" height="716" key="find.popup" timestamp="1608994072518">
-      <screen x="49" y="27" width="1871" height="1053" />
-    </state>
-    <state x="446" y="220" width="1032" height="716" key="find.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1608994072518" />
-    <state x="950" y="1870" width="680" height="650" key="find.popup/49.27.2511.1413/304.1440.1920.1080@304.1440.1920.1080" timestamp="1606153350720" />
-    <state x="1190" y="590" width="1200" height="850" key="find.popup/49.27.3391.1413/3440.360.1920.1080@49.27.3391.1413" timestamp="1606076488272" />
-    <state x="768" y="286" width="1201" height="851" key="find.popup/49.27.3391.1413/752.1440.1920.1080@49.27.3391.1413" timestamp="1608935087979" />
-    <state x="1398" y="1870" width="680" height="650" key="find.popup/49.27.3391.1413/752.1440.1920.1080@752.1440.1920.1080" timestamp="1608928573708" />
   </component>
 </project>

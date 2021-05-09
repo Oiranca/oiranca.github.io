@@ -8,7 +8,7 @@ date: 2021-01-15 07:49:00
 
 
 
-En esta segunda parte vamos a ver las **queries** o **consultas** las cuales nos van ayudar para la realización de los test.
+Este segundo post, es la continuación de un total de tres sobre mis experiencia durante el estudio de la libreía **React Testing**. En la [primera parte](https://www.samuelromeroarbelo.com/2020/11/28/React-Testing/) empecé con una pequeña descripción y sus ventajas, en esta segunda parte vamos a ver un poco más sobre ella ya que nos centraremos en las **queries** o **consultas**, las cuales nos van ayudar para la realización de los test.
 
 # Queries o Consultas
 
@@ -70,6 +70,7 @@ Los argumentos de una consulta pueden ser *string, expresion regular o funciones
 
 	Estas consultas, son consultas base y requieren de le pasemos un contenedor como primer argumento.
 
+<br/>
 
  **ByLabelText** 
 	
@@ -92,39 +93,43 @@ Nos buscará la etiqueta que coincida con el *TextMatch* que le pasemos y luego 
 
 * **Ejemplo en código**
        
-<br/>
+
 
 **Componente**
        
    
 ```
-     import * as React from 'react';
-        const Label = () => {
+import * as React from "react";
+import "./Label.scss";
+const Label = () => {
+  return (
+    <>
+      <div className={"classLabel"}>
+        <label htmlFor="username-input">
+          Testing getByLabelText and getByText
+        </label>
+        <input id="username-input" />
+      </div>
+    </>
+  );
+};
 
-            return (<><label htmlFor="username-input">Label</label>
-                <input id="username-input"/>
-            </>);
-        };
-
-        export default Label;
+export default Label;
 ```
 
-
+<br/>
 
  **Test**
-    
 
   ```
-      import * as React from 'react';
-          import * as Testing from '@testing-library/react';
-          import Label from "./Label";
+import * as React from "react";
+import * as Testing from "@testing-library/react";
+import Label from "./Label";
 
-          test('test for label queries', () => {
-
-              Testing.render(<Label/>);
-              Testing.screen.getByLabelText('Label');
-
-          });
+test("for label queries", () => {
+  Testing.render(<Label/>);
+  Testing.screen.getByLabelText("Testing getByLabelText and getByText");
+});
   ```
 
 <br/>
@@ -148,41 +153,43 @@ Nos buscará en todos los elementos que contentagan *placeholder* hasta econtrar
 
 * **Ejemplo en código**
        
-<br/>
 
 **Componente**
 
 ```
-    import * as React from 'react';
+import * as React from "react";
+import "./InputWithPlaceHolder.scss";
 
+const InputWithPlaceHolder = () => {
+  return (
+    <div className={"input-place-holder"}>
+      <h3>Testing getByPlaceholderText</h3>
+      <input type="text" placeholder={"I am a placeholder"} />
+    </div>
+  );
+};
 
-    const InputWithPlaceHolder=()=>{
-
-        return(
-            <input type="text" placeholder={'I am a placeholder'}/>
-        );
-
-    }
-
-    export default InputWithPlaceHolder;
+export default InputWithPlaceHolder;
 ```
+<br/>
 
-   **Test**
+**Test**
     
 ```
-    import * as React from 'react';
-    import * as Testing from '@testing-library/react';
-    import InputWithPlaceHolder from "./InputWithPlaceHolder";
+import * as React from "react";
+import * as Testing from "@testing-library/react";
+import InputWithPlaceHolder from "./InputWithPlaceHolder";
 
-    test('test with getBy Placeholder', () => {
+test("testing getBy Placeholder", () => {
+  Testing.render(<InputWithPlaceHolder />);
+  Testing.screen.getByPlaceholderText("I am a placeholder");
+});
 
-            Testing.render(<InputWithPlaceHolder/>);
-            Testing.screen.getAllByPlaceholderText('I am a placeholder')
-
-    })
 ```
 	
 ~ **Buscar por placeholder no es la mejor opción, por lo general se usa getByLabelText** ~
+
+<br/>
 
 **ByText**
 	
@@ -206,14 +213,13 @@ Podemos pasarle como opción *ignore* en estado *false* si queremos evitar que n
 
 * **Ejemplo en código**
 
-<br/>
+
 
 **Componente**
        
 
 ```
         import * as React from 'react';
-
 
         const Label = () => {
 
@@ -224,8 +230,9 @@ Podemos pasarle como opción *ignore* en estado *false* si queremos evitar que n
 
         export default Label;
 ```
+<br/>
 
-   **Test**
+**Test**
     
 ```
     import * as React from 'react';
@@ -261,36 +268,41 @@ Esta búsqueda es solamente soportada por elementos que contengan el atributo **
 
 * **Ejemplo en código**
        
-<br/>
+
 
 **Componente**
        
 ```
-    import * as React from 'react';
-    import IconReactTesting from '../../img/octopus-128x128.png'
+import * as React from "react";
+import IconReactTesting from "../../img/octopus-128x128.png";
+import "./Img.scss";
 
+const Img = () => {
+  return (
+    <div className={"img-class"}>
+      <h3>Testing ByAltText</h3>
+      <img src={IconReactTesting} alt={"This is a img"} />
+    </div>
+  );
+};
 
-    const Img = () => {
+export default Img;
 
-        return (<img src={IconReactTesting} alt={'This is a img'}/>)
-    };
-
-    export default Img;
 ```
+<br/>
 
 **Test**
 
 ```
-         import * as React from 'react';
-            import IconReactTesting from '../../img/octopus-128x128.png'
+import * as React from 'react';
+import * as Testing from '@testing-library/react';
+import Img from '../Img/Img';
 
+test('queries getByAltText', () => {
 
-            const Img = () => {
-
-                return (<img src={IconReactTesting} alt={'This is a img'}/>)
-            };
-
-            export default Img;
+    Testing.render(<Img/>);
+    Testing.screen.getByAltText('This is a img');
+})
 ```
 <br/>
 
@@ -312,35 +324,40 @@ Esta búsqueda nos devolvería el elemento que contenga en su atributo *title* e
 
 * **Ejemplo en código**
        
-<br/>
+
 
 **Componente**
        
 ```
-        import * as React from 'react';
+import * as React from "react";
+import "./InputWithTitle.scss";
 
-        const InputWithTitle = () => {
-            return (
-                <input type={'text'} title={'This a input with title'}/>
-            )
-        }
+const InputWithTitle = () => {
+  return (
+    <div className={"input-with-title"}>
+      <h3>Testing ByTitle</h3>
+      <input type={"text"} title={"This a input with title"} />
+    </div>
+  );
+};
 
-        export default InputWithTitle;
+export default InputWithTitle;
+
 
 ```
-   
+<br/>
+
 **Test**
      
 ```
-        import * as React from 'react';
-        import * as Testing from '@testing-library/react';
-        import InputWithTitle from "./InputWithTitle";
+import * as React from 'react';
+import * as Testing from '@testing-library/react';
+import InputWithTitle from "./InputWithTitle";
 
-
-        test('queries getByTitle', () => {
-            Testing.render(<InputWithTitle/>);
-            Testing.screen.getByTitle('This a input with title');
-        })
+test('queries getByTitle', () => {
+    Testing.render(<InputWithTitle/>);
+    Testing.screen.getByTitle('This a input with title');
+})
 ```
 <br/>
 
@@ -362,36 +379,45 @@ Esta búsqueda nos devolvería el **input, textarea o select** que contengan el 
 
 * **Ejemplo en código**
 
-<br/>
+
 
 **Componente**
 
 ```
-    import * as React from 'react';
+import * as React from "react";
+import "./InputWithDisplayValue.scss";
 
-    const InputWithDisplayValue = () => {
-        return (
-            <input type={'text'} title={'This a input with title'} value={'This a input with display value'}
-                   readOnly={true}/>
-        )
-    }
+const InputWithDisplayValue = () => {
+  return (
+    <div className={"display-value"}>
+      <h3>Testing ByDisplayValue</h3>
+      <input
+        type={"text"}
+        title={"This a input with title"}
+        value={"This a input with display value"}
+        readOnly={true}
+      />
+    </div>
+  );
+};
 
-    export default InputWithDisplayValue;
+export default InputWithDisplayValue;
+
 
 ```
-   
+<br/>
+
 **Test**
      
 ```
-    import * as React from 'react';
-    import * as Testing from '@testing-library/react';
-    import InputWithDisplayValue from "./InputWithDisplayValue";
+import * as React from 'react';
+import * as Testing from '@testing-library/react';
+import InputWithDisplayValue from "./InputWithDisplayValue";
 
-
-    test('queries getByTitle', () => {
-        Testing.render(<InputWithDisplayValue/>);
-        Testing.screen.getByDisplayValue('This a input with display value');
-    });
+test('queries getByTitle', () => {
+    Testing.render(<InputWithDisplayValue/>);
+    Testing.screen.getByDisplayValue('This a input with display value');
+});
 ```
 <br/>	
 
@@ -425,34 +451,50 @@ getByRole(
 
 * **Ejemplo en código**
        
-<br/>
+
 
 **Componente**
 
 ```
-    import * as React from 'react';
+import * as React from "react";
+import "./ByRole.scss";
 
-    const Button = () => {
+const ByRole = () => {
+  return (
+    <>
+      <div className={"byRole"}>
+        <header>
+          <h3>This is to prove the queries ByRole</h3>
+        </header>
 
-        return (
-            <button type="submit">Esto es un boton</button>
-        )
-    };
+        <button type="submit">This is a submit button</button>
 
-    export default Button;
+        <button type="reset">This is a reset button</button>
+
+        <button type="button">This is a button</button>
+      </div>
+    </>
+  );
+};
+
+export default ByRole;
 ```
-   
+
+<br/>
+
 **Test**
 
 ```
-    import * as React from 'react';
-    import * as Testing from '@testing-library/react';
-    import Button from "./Button";
+import * as React from "react";
+import * as Testing from "@testing-library/react";
+import ByRole from "./ByRole";
 
-    test('Querie getByRole', () => {
-        Testing.render(<Button/>);
-        Testing.screen.getByRole('button');
-    })
+test("to testing byRole", () => {
+  Testing.render(<ByRole />);
+  Testing.screen.getByRole("button", { name: "This is a reset button" });
+});
+
+
 ```
 <br/>
 
@@ -474,37 +516,38 @@ getByTestId(
 
 * **Ejemplo en código**
 
-<br/>
+
 
 **Componente**
 
 ```
-    import * as React from 'react';
+import * as React from "react";
+import "./ExampleByTestId.scss";
+const ExampleByTestId = () => {
+  return (
+    <div className={"byTestId"} data-testid={"custom-element"}>
+      <p>Testing ByTestId</p>
+    </div>
+  );
+};
 
-
-    const ExampleByTestId=()=>{
-        return(
-            <div data-testid={'custom-element'}>
-                <p>Para el Ejeplo de la querie getByTestId</p>
-            </div>
-        )
-    };
-
-    export default ExampleByTestId;
+export default ExampleByTestId;
 ```
+<br/>
 
 **Test**
 
 ```
-    import * as React from 'react';
-    import * as Testing from '@testing-library/react';
-    import ExampleByTestId from "./ExampleByTestId";
+import * as React from 'react';
+import * as Testing from '@testing-library/react';
+import ExampleByTestId from "./ExampleByTestId";
 
 
-    test('Querie getByTestId',()=>{
-        Testing.render(<ExampleByTestId/>);
-        Testing.screen.getByTestId('custom-element');
-    });
+test('testing getByTestId',()=>{
+    Testing.render(<ExampleByTestId/>);
+    Testing.screen.getByTestId('custom-element');
+});
+
 
 ```
 <br/>
