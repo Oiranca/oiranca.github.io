@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/Untitled.md" beforeDir="false" />
-    </list>
+    <list default="true" id="53266588-d848-4c36-9077-1f2da73d5112" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +108,7 @@
       <workItem from="1620589198881" duration="18000" />
       <workItem from="1620658014332" duration="13000" />
       <workItem from="1621505067014" duration="740000" />
-      <workItem from="1621587439716" duration="860000" />
+      <workItem from="1621587439716" duration="1167000" />
     </task>
     <task id="LOCAL-00001" summary="section about me modified">
       <created>1620557322541</created>
