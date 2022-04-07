@@ -2,51 +2,43 @@ title: Proyectos
 subtitle: Siempre aprendiendo.
 
 items:
-  #1
+  #  #1
   - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
-    image: "img/homeWork/Logo_HomeworK.png"
+    image: "img/MyWhatsappClone/logo.png"
     hide_text: "Hide"
-    title: "HomeWork (Android / Web)"
-    subtitle: "Proyecto en Android y su versión Web"
-    description: "<h2><b>HomeWork en Android</b> </h2>
-    <p>En la versión de <b>android</b> he usado como tecnología <b>Java 8</b>, los datos de lo usuarios y todo lo necesario para el funcionamiento de
-    la aplicación están alojados<b> en Firebase</b>.
-    <h2><b>HomeWork Web</b> </h2>
-    <p>En la versión <b>Web</b> he realizado la parte del frontend con <b>Angular 8</b> mientras que el backend ha sido desarrollado con <b>Node.js y Express</b>,
-    montando una base de datos en <b>Mongodb</b>.</p>
-
-    <h4><b><i>La versión web sigue en desarrollo.</i></b></h4>"
-    #cta: "Show me more"
-    #href: "#"
+    title: "My Whatsapp Clone"
+    subtitle: "Proyecto en React y Sass"
+    description: "<h2><b>My Whatsapp Clone</b> </h2>
+    <p>He creado una web estática, donde he clonado <b>Whatsapp Web</b>, pero a su vez, la he 
+    hecho responsive y cuando el tamaño es inferior a <b>960px</b>
+    mostraría la <b>versión mobile del propio Whatsapp.</b></p>
+    
+    <p>Para la estructura de las carpetas me he basado en <b>Atomic Design</b>, para su
+     desarrollo he usado <b>React con Javascript</b> y para darle estilo <b>Sass</b>, para terminar la he desplegado en <b>Github Pages</b>.</p>"
+    cta: "My Whatsapp Clone desplegado"
+    href: "https://www.samuelromeroarbelo.com/whatsapp-clone/"
     tags:
-      - text: "Versión Android"
+      - text: "Repositorio Github"
         href: "https://github.com/Oiranca/pgl-project"
-      - text: "Versión Web (Frontend) "
-        href: "https://github.com/Oiranca/frontend-homework"
-      - text: "Versión Web (Backend)"
-        href: "https://github.com/Oiranca/backend-homework"
     parameters:
-      - title: "Versión en Android"
-        text: "Java / Firebase"
-      - title: "Versión Web"
-        text: "Angular 8 / Node.js / Express / Mongodb"
-#      - title: "Angular 8 / Node.js / Express / Mongodb"
-#        text: " Alisa Keys"
-#      - title: "Customer"
-#        text: "Mark Doe"
+      - title: "Lenguaje"
+        text: "Javascript"
+      - title: "Tecnología"
+        text: "React"
+      - title: "Estilo"
+        text: "Sass"
 
 
   #2
   - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
-    image: "img/huellapositiva/cropped-Logo-Huella-Positiva-PV-05-fondo2.png"
+    image: "img/huellapositiva/logo.png"
     hide_text: "Hide"
     title: "Huella Positiva (Web)"
     subtitle: "Proyecto Colaborativo"
     description: "<p>Es un proyecto colaborativo para una ONG llamada <i><strong>Soy Mamut</strong></i>, donde formo parte el
      equipo de <strong>FrontEnd</strong>.</p>
 
-    <p>Juntos estamos migrando su web de <strong>Wordpress</strong> a <strong> React. </strong></p>
-    "
+    <p>Juntos estamos migrando su web de <strong>Wordpress</strong> a <strong> React. </strong></p>"
     cta: "Web Original HuellaPositiva"
     href: "https://huellapositiva.com/?fbclid=IwAR0yqc2Hwb4tNGAvt0bNT_3Uyx6kPxfuDRD226XI2b-p_hn9e8tmPEM2_8U"
     tags:
@@ -54,19 +46,16 @@ items:
         href: "https://github.com/ayudadigital/huelladigital-frontend"
       - text: "Repositorio Backend "
         href: "https://github.com/ayudadigital/huelladigital-backend"
-#      - text: "Portfolio"
-#        href: "https://keenthemes.com/"
+    #      - text: "Portfolio"
+    #        href: "https://keenthemes.com/"
     parameters:
       - title: "Lenguaje"
         text: "TypeScript"
       - title: "Testing"
         text: "Jest / Testing Library"
-#      - title: "Librería"
-#        text: "React"
-#      - title: "Customer"
-#        text: "Mark Doe"
 
-##3
+
+  ##3
   - grid_class: "col-xs-12 col-sm-6 col-md-6 md-margin-b-4"
     image: "img/moviesforworld/moviesforworld.png"
     hide_text: "Hide"
@@ -82,22 +71,16 @@ items:
     tags:
       - text: "Repositorio "
         href: "https://github.com/Oiranca/reto-final-frontend"
-#      - text: "Coding, "
-#        href: "https://keenthemes.com/"
-#      - text: "Portfolio"
-#        href: "https://keenthemes.com/"
+
     parameters:
       - title: "Lenguaje"
         text: "JavaScript"
       - title: "Estilo"
         text: "Sass"
-#      - title: "Developer"
-#        text: " Alisa Keys"
-#      - title: "Customer"
-#        text: "Mark Doe"
 
 
-##4
+
+  ##4
   - grid_class: "col-xs-12 col-sm-6 col-md- md-margin-b-4"
     image: "img/ecommerce/logo-ecommerce.png"
     hide_text: "Hide"
@@ -108,15 +91,12 @@ items:
     <p> Está desarrollado en <strong>JavaScript</strong> con <strong>Node.js</strong>, <strong>Express.js</strong> y como
     base de datos <strong>MongoDB</strong></p>
     "
-#    cta: "Show me more"
-#    href: "#"
+    #    cta: "Show me more"
+    #    href: "#"
     tags:
       - text: "Repositorio"
         href: "https://github.com/Oiranca/ecommerce-backend"
-#      - text: "Coding, "
-#        href: "https://keenthemes.com/"
-#      - text: "Portfolio"
-#        href: "https://keenthemes.com/"
+ 
     parameters:
       - title: "Lenguaje"
         text: "JavaScript"
@@ -129,29 +109,34 @@ items:
 
 
 ##5
-#  - grid_class: "col-xs-12 col-sm-6 col-md-4"
-#    image: "img/397x300/03.jpg"
+#  - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
+#    image: "img/homeWork/Logo_HomeworK.png"
 #    hide_text: "Hide"
-#    title: "Art Of Coding"
-#    subtitle: "Clean &amp; Minimalistic Design"
-#    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-#    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-#    "
-#    cta: "Show me more"
-#    href: "#"
+#    title: "HomeWork (Android / Web)"
+#    subtitle: "Proyecto en Android y su versión Web"
+#    description: "<h2><b>HomeWork en Android</b> </h2>
+#    <p>En la versión de <b>android</b> he usado como tecnología <b>Java 8</b>, los datos de lo usuarios y todo lo necesario para el funcionamiento de
+#    la aplicación están alojados<b> en Firebase</b>.
+#    <h2><b>HomeWork Web</b> </h2>
+#    <p>En la versión <b>Web</b> he realizado la parte del frontend con <b>Angular 8</b> mientras que el backend ha sido desarrollado con <b>Node.js y Express</b>,
+#    montando una base de datos en <b>Mongodb</b>.</p>
+#
+#    <h4><b><i>La versión web sigue en desarrollo.</i></b></h4>"
+#    #cta: "Show me more"
+#    #href: "#"
 #    tags:
-#      - text: "Design, "
-#        href: "https://keenthemes.com/"
-#      - text: "Coding, "
-#        href: "https://keenthemes.com/"
-#      - text: "Portfolio"
-#        href: "https://keenthemes.com/"
+#      - text: "Versión Android"
+#        href: "https://github.com/Oiranca/pgl-project"
+#      - text: "Versión Web (Frontend) "
+#        href: "https://github.com/Oiranca/frontend-homework"
+#      - text: "Versión Web (Backend)"
+#        href: "https://github.com/Oiranca/backend-homework"
 #    parameters:
-#      - title: "Project Leader"
-#        text: "John Doe"
-#      - title: "Designer"
-#        text: "Keenthemes"
-#      - title: "Developer"
-#        text: " Alisa Keys"
-#      - title: "Customer"
-#        text: "Mark Doe"
+#      - title: "Versión en Android"
+#        text: "Java / Firebase"
+#      - title: "Versión Web"
+#        text: "Angular 8 / Node.js / Express / Mongodb"
+##      - title: "Angular 8 / Node.js / Express / Mongodb"
+##        text: " Alisa Keys"
+##      - title: "Customer"
+##        text: "Mark Doe"
