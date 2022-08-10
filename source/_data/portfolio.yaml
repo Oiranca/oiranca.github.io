@@ -2,7 +2,7 @@ title: Proyectos
 subtitle: Siempre aprendiendo.
 
 items:
-  #  #1
+  #1
   - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
     image: "img/MyWhatsappClone/logo.png"
     hide_text: "Hide"
@@ -19,7 +19,7 @@ items:
     href: "https://www.samuelromeroarbelo.com/whatsapp-clone/"
     tags:
       - text: "Repositorio Github"
-        href: "https://github.com/Oiranca/pgl-project"
+        href: "https://github.com/Oiranca/whatsapp-clone"
     parameters:
       - title: "Lenguaje"
         text: "Javascript"
@@ -55,7 +55,7 @@ items:
         text: "Jest / Testing Library"
 
 
-  ##3
+  #3
   - grid_class: "col-xs-12 col-sm-6 col-md-6 md-margin-b-4"
     image: "img/moviesforworld/moviesforworld.png"
     hide_text: "Hide"
@@ -80,7 +80,7 @@ items:
 
 
 
-  ##4
+  #4
   - grid_class: "col-xs-12 col-sm-6 col-md- md-margin-b-4"
     image: "img/ecommerce/logo-ecommerce.png"
     hide_text: "Hide"
@@ -96,7 +96,7 @@ items:
     tags:
       - text: "Repositorio"
         href: "https://github.com/Oiranca/ecommerce-backend"
- 
+
     parameters:
       - title: "Lenguaje"
         text: "JavaScript"
@@ -107,6 +107,28 @@ items:
       - title: "Base de datos"
         text: "MongoDB"
 
+  #1
+  - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
+    image: "img/Multiply/logo.svg"
+    hide_text: "Hide"
+    title: "Your Multiply"
+    subtitle: "Proyecto en React y TypeScript"
+    description: "<h2><b>Your Multiply</b> </h2>
+    <p> Pequeño proyecto del tipo drag and drop, para que mi hija practique las tablas de multiplicar</p>
+    
+    <p>Para su desarrollo he usado <b>React con TypeScript</b> y para darle estilo <b>CSS</b>, para terminar la he desplegado en <b>Github Pages</b>.</p>"
+    cta: "Your Multiply desplegado"
+    href: "https://www.samuelromeroarbelo.com/multiply-game/"
+    tags:
+      - text: "Repositorio Github"
+        href: "https://github.com/Oiranca/multiply-game"
+    parameters:
+      - title: "Lenguaje"
+        text: "TypeScript"
+      - title: "Tecnología"
+        text: "React"
+      - title: "Estilo"
+        text: "CSS"
 
 ##5
 #  - grid_class: "col-xs-12 col-sm-6 col-md-6 margin-b-4"
