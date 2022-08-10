@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js" id="body">
+
+	<!-- BEGIN HEAD -->
+<head>
+
+  
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+
+  <title>Un novato junto a &#34;React Testing&#34; segunda parte...</title>
+
+  
+
+  <meta name="description" content="">
+
+  
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<!--  <link rel="manifest" href="source/img/favicon/manifest.json">-->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  
+
+<!-- Open Graph data-->
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Un novato junto a &#34;React Testing&#34; segunda parte...">
+<meta property="og:site_name" content="Samuel.R.A">
+<meta property="og:url" content="http://localhost:4000/2021/01/15/Testing-segunda-parte/">
+<meta property="og:description" content="">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/img/japon/templo_izquierda.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1663">
+  <meta property="og:image:height" content="1247">
+
+  <meta property="og:image" content="http://localhost:4000/img/japon/small_templo_izquierda.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="200">
+  <meta property="og:image:height" content="150">
+
+
+
+<!-- end Open Graph data-->
+  
+<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+  
+<!-- GLOBAL MANDATORY STYLES -->
+<link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="/vendor/animate.css/animate.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/sass/layout.css">
+
+  
+
+
+
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+<!-- END HEAD -->
+
+  <body>
+		
+		
+
+
+<!--========== HEADER ==========-->
+<header class="header navbar-fixed-top">
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container js_nav-item">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="toggle-icon"></span>
+              </button>
+
+<!--              &lt;!&ndash; Logo &ndash;&gt;-->
+<!--              <div class="logo">-->
+<!--                &lt;!&ndash; En caso de una text &ndash;&gt;-->
+<!--                -->
+<!--                    <a class="logo-wrap" href="/#body" style="text-decoration: none;" >-->
+<!--                        <img class="logo-img logo-img-main" src="" alt="Asentus Logo">-->
+<!--                        <img class="logo-img logo-img-active" src="" alt="Asentus Logo">-->
+<!--                    </a>-->
+<!--                -->
+<!--              </div>-->
+<!--              &lt;!&ndash; End Logo &ndash;&gt;-->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-collapse">
+              <div class="menu-container">
+                  <ul class="nav navbar-nav navbar-nav-right">
+                      
+                      
+                        <li class="js_nav-item nav-item">
+                            <a  class="nav-item-child nav-item-hover"
+                                href="/#body"
+                            >
+                            Incio
+                        </a>
+                        </li>
+                      
+                        <li class="js_nav-item nav-item">
+                            <a  class="nav-item-child nav-item-hover"
+                                href="/#about"
+                            >
+                            Un poco de mí
+                        </a>
+                        </li>
+                      
+                        <li class="js_nav-item nav-item">
+                            <a  class="nav-item-child nav-item-hover"
+                                href="/#experience"
+                            >
+                            Experiencia
+                        </a>
+                        </li>
+                      
+                        <li class="js_nav-item nav-item">
+                            <a  class="nav-item-child nav-item-hover"
+                                href="/#work"
+                            >
+                            Proyectos
+                        </a>
+                        </li>
+                      
+                        <li class="js_nav-item nav-item">
+                            <a  class="nav-item-child nav-item-hover"
+                                href="/#contact"
+                            >
+                            Contacto
+                        </a>
+                        </li>
+                      
+                        <li class="js_nav-item nav-item">
+                            <a  class="nav-item-child nav-item-hover"
+                                href="/blog"
+                            >
+                            Blog
+                        </a>
+                        </li>
+                      
+                  </ul>
+              </div>
+          </div>
+          <!-- End Navbar Collapse -->
+      </div>
+  </nav>
+  <!-- Navbar -->
+
+</header>
+<!--========== END HEADER ==========-->
+
+		<section id="post">
+  <div class="content content-width">
+    <h1 class="post-title"> Un novato junto a &#34;React Testing&#34; segunda parte...</h1>
+    <p class="date"> Fri Jan 15 2021 07:49:00 GMT+0000 </p>
+    
+    <p><img src="https://i.imgur.com/StMOQvK.png" alt=""></p>
+<p>Este segundo post, es la continuación de un total de tres sobre mis experiencia durante el estudio de la libreía <strong>React Testing</strong>. En la <a href="https://www.samuelromeroarbelo.com/2020/11/28/React-Testing/" target="_blank" rel="noopener">primera parte</a> empecé con una pequeña descripción y sus ventajas, en esta segunda parte vamos a ver un poco más sobre ella ya que nos centraremos en las <strong>queries</strong> o <strong>consultas</strong>, las cuales nos van ayudar para la realización de los test.</p>
+<h1 id="Queries-o-Consultas"><a href="#Queries-o-Consultas" class="headerlink" title="Queries o Consultas"></a>Queries o Consultas</h1><ul>
+<li><h4 id="Variantes"><a href="#Variantes" class="headerlink" title="Variantes"></a>Variantes</h4><ul>
+<li><p><strong>Variantes que devuelven el primer elemento</strong></p>
+<ul>
+<li><p><strong>getBy :</strong> Retorna el primer nodo que coincide para una consulta, la cual arroja un error si no encuentra un elemento coincidente o si se encuentra más de uno.</p>
+</li>
+<li><p><strong>querryBy :</strong> Retorna el primer nodo que coincide con la consulta y nos devuelve un <strong>null</strong> si no encuentra coincidencias. Como nos comenta la documentacion, este tipo de consultas es muy útil si queremos verificar que un elemento está presente o no.    </p>
+</li>
+<li><p><strong>findBy :</strong> Retorna una promesa, la cual se resuelve cuando se encuentra un elemento coincidente con la consulta realizada, si no encuentro ninguna coincidencia o nos encuentra más de una después de que pasen los 1000 ms que tiene predeterminados, nos rechaza dicha promesa.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Variantes que devuelven un array de elementos</strong></p>
+<ul>
+<li><p><strong>getAllBy :</strong> Retorna un array con todos los nodos coincidentes, nos devolvería un error si no encuentra elementos para dicha consulta.</p>
+</li>
+<li><p><strong>querryAllBy :</strong> Retorna un array con todos los nodos coincidentes para la consulta y una array vacío si no encuntra coincidencias.    </p>
+</li>
+<li><p><strong>findAllBy :</strong> Retorna una promesa, la cual se resuelve en un array cuando se encuentra los nodos coincidente con la consulta realizada, si no encuentro ninguna coincidencia después de que pasen los 1000 ms que tiene predeterminados, nos rechaza dicha promesa.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><h4 id="Opciones"><a href="#Opciones" class="headerlink" title="Opciones"></a>Opciones</h4></li>
+</ul>
+<p>Los argumentos de una consulta pueden ser <em>string, expresion regular o funciones</em>, además podemos encontrar opciones para ajustar como el nodo es analizado, la cuales son :</p>
+<ul>
+<li><p><em>Precision:</em></p>
+<p> Algunas Apis acepta un objeto como final del argumento que se le pasa en la consulta y que puede afectar la precisión de la coincidencias de las <em>string</em> pasada:</p>
+<ul>
+<li><p><strong>exact :</strong> Por defecto viene en <em>true</em>, coincide con cadenas completas y distingue entre mayúsculas y minúsculas. Cuando es inicializado a <em>false</em> coincide con subcadenas y no distingue entre mayúsculas y minúsculas.<br>  En la documentación aconsejan que usar <em>expresiones regulares</em> porque te dan más control sobre la coincidencia aproximada.</p>
+</li>
+<li><p><strong>normalizer :</strong> Con esta opción lo que hacemos es anular el comportamiento de <em>Normalization</em>, la cual se ejecuta siempre antes de la lógica para la búsqueda. </p>
+</li>
+</ul>
+</li>
+<li><p><em>Normalización:</em></p>
+<p>  Como comentamos en una de la opciones de la precisión, esta se ejecuta antes de la lógica y por defecto quita los espacios en blanco antes y después del texto y regulariza los espacios entre palabras a uno sólo.</p>
+<p>  Si queremo evitar esta normalización o poner opciones alternativas, les podemos pasar una <strong>normalizer function</strong>, la cual recibirá una <em>string</em> y espera una versión normalizada de dicha <em>string</em>.</p>
+<p>  Tenemos el método <strong>getDefaultNormalizer</strong>, el cual nos permite introducirlo en nuestra opciones y pasarle como parámetro:</p>
+<ul>
+<li><strong>trim:</strong> El cual nos quitará los espacios en blanco, tanto al principio como al final de la cadena, viene como predeterminado en <em>true</em>.<ul>
+<li><strong>collapseWhitespace:</strong> Nos quitaría los espacios extras entre palabras dejándolo solamentes en uno, viene por defecto en <em>true</em>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p><strong>Screen</strong> </p>
+<p>  Todas las consultas que exportamos mediante el <em>DOM Testing Library</em> aceptan un contenedor como primer argumento y es común consultar todo el <em>document.body</em>, por eso la librería <em>DOM Testing Library</em> también nos exporta un objeto <strong>screen</strong> el cual contiene todas las consultas que están vinculadas previamente usando la funcionalidad <em>within</em>, que podemos encontrar en el apartado <a href="https://testing-library.com/docs/dom-testing-library/api-helpers/#custom-queries" target="_blank" rel="noopener"><em>Custom Queries</em></a>.</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>Screen.debug</strong></p>
+<p>  Método que nos ayuda hacer <em>debug</em> del documento en un sólo elemento o en un array de elementos.</p>
+</li>
+</ul>
+<ul>
+<li><p><strong>Queries</strong></p>
+<p>  Estas consultas, son consultas base y requieren de le pasemos un contenedor como primer argumento.</p>
+</li>
+</ul>
+<br/>
+
+<p> <strong>ByLabelText</strong> </p>
+<p>Nos buscará la etiqueta que coincida con el <em>TextMatch</em> que le pasemos y luego nos encontrará el elemento asociado con dicha etiqueta.</p>
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">getByLabelText(</span><br><span class="line">      container: HTMLElement, &#x2F;&#x2F;if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">      text: TextMatch,</span><br><span class="line">      options?: &#123;</span><br><span class="line">        selector?: string &#x3D; &#39;*&#39;,</span><br><span class="line">        exact?: boolean &#x3D; true,</span><br><span class="line">        normalizer?: NormalizerFn,</span><br><span class="line">      &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+
+
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import &quot;.&#x2F;Label.scss&quot;;</span><br><span class="line">const Label &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;&gt;</span><br><span class="line">      &lt;div className&#x3D;&#123;&quot;classLabel&quot;&#125;&gt;</span><br><span class="line">        &lt;label htmlFor&#x3D;&quot;username-input&quot;&gt;</span><br><span class="line">          Testing getByLabelText and getByText</span><br><span class="line">        &lt;&#x2F;label&gt;</span><br><span class="line">        &lt;input id&#x3D;&quot;username-input&quot; &#x2F;&gt;</span><br><span class="line">      &lt;&#x2F;div&gt;</span><br><span class="line">    &lt;&#x2F;&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default Label;</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<p> <strong>Test</strong></p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import * as Testing from &quot;@testing-library&#x2F;react&quot;;</span><br><span class="line">import Label from &quot;.&#x2F;Label&quot;;</span><br><span class="line"></span><br><span class="line">test(&quot;for label queries&quot;, () &#x3D;&gt; &#123;</span><br><span class="line">  Testing.render(&lt;Label&#x2F;&gt;);</span><br><span class="line">  Testing.screen.getByLabelText(&quot;Testing getByLabelText and getByText&quot;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<p><strong>ByPlaceholderText</strong></p>
+<p>Nos buscará en todos los elementos que contentagan <em>placeholder</em> hasta econtrar uno que coincida con el <em>TextMatch</em> que le pasemos.</p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">getByPlaceholderText(</span><br><span class="line">      container: HTMLElement, &#x2F;&#x2F;if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">      text: TextMatch,</span><br><span class="line">      options?: &#123;</span><br><span class="line">        exact?: boolean &#x3D; true,</span><br><span class="line">        normalizer?: NormalizerFn,</span><br><span class="line">      &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import &quot;.&#x2F;InputWithPlaceHolder.scss&quot;;</span><br><span class="line"></span><br><span class="line">const InputWithPlaceHolder &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;div className&#x3D;&#123;&quot;input-place-holder&quot;&#125;&gt;</span><br><span class="line">      &lt;h3&gt;Testing getByPlaceholderText&lt;&#x2F;h3&gt;</span><br><span class="line">      &lt;input type&#x3D;&quot;text&quot; placeholder&#x3D;&#123;&quot;I am a placeholder&quot;&#125; &#x2F;&gt;</span><br><span class="line">    &lt;&#x2F;div&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default InputWithPlaceHolder;</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>Test</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import * as Testing from &quot;@testing-library&#x2F;react&quot;;</span><br><span class="line">import InputWithPlaceHolder from &quot;.&#x2F;InputWithPlaceHolder&quot;;</span><br><span class="line"></span><br><span class="line">test(&quot;testing getBy Placeholder&quot;, () &#x3D;&gt; &#123;</span><br><span class="line">  Testing.render(&lt;InputWithPlaceHolder &#x2F;&gt;);</span><br><span class="line">  Testing.screen.getByPlaceholderText(&quot;I am a placeholder&quot;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>~ <strong>Buscar por placeholder no es la mejor opción, por lo general se usa getByLabelText</strong> ~</p>
+<br/>
+
+<p><strong>ByText</strong></p>
+<p>Nos buscará  en todos lo elementos que contengan texto en el nodo con <em>textContent</em> que coincida con el <em>TextMatch</em> que le pasemos. Además funciona con <em>inputs</em> cuyo atributos sean del tipo <em>submit o button</em>. </p>
+<p>Podemos pasarle como opción <em>ignore</em> en estado <em>false</em> si queremos evitar que nos devuelva como <em>true</em> una etiqueta script.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">getByText(</span><br><span class="line">  container: HTMLElement, &#x2F;&#x2F;if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">  text: TextMatch,</span><br><span class="line">  options?: &#123;</span><br><span class="line">    selector?: string &#x3D; &#39;*&#39;,</span><br><span class="line">    exact?: boolean &#x3D; true,</span><br><span class="line">    ignore?: string|boolean &#x3D; &#39;script, style&#39;,</span><br><span class="line">    normalizer?: NormalizerFn,</span><br><span class="line">  &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &#39;react&#39;;</span><br><span class="line"></span><br><span class="line">const Label &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line"></span><br><span class="line">    return (&lt;&gt;&lt;label htmlFor&#x3D;&quot;username-input&quot;&gt;Label&lt;&#x2F;label&gt;</span><br><span class="line">        &lt;input id&#x3D;&quot;username-input&quot;&#x2F;&gt;</span><br><span class="line">    &lt;&#x2F;&gt;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default Label;</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>Test</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &#39;react&#39;;</span><br><span class="line">import * as Testing from &#39;@testing-library&#x2F;react&#39;;</span><br><span class="line">import Label from &quot;.&#x2F;Label&quot;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">test(&#39;queries getByText&#39;, () &#x3D;&gt; &#123;</span><br><span class="line"></span><br><span class="line">    Testing.render(&lt;Label&#x2F;&gt;);</span><br><span class="line">    Testing.screen.getByText(&#x2F;Label&#x2F;i);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<p><strong>ByAltText</strong></p>
+<p>Esta búsqueda es solamente soportada por elementos que contengan el atributo <strong>alt</strong>,como por ejemplo<code>&lt;img&gt;, &lt;input&gt; y &lt;area&gt;</code> ya que nos devolvería dichos elementos si su atributo <em>alt</em> coincide con el <em>TextMatch</em> indicado.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">getByAltText(</span><br><span class="line">  container: HTMLElement, &#x2F;&#x2F;if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">  text: TextMatch,</span><br><span class="line">  options?: &#123;</span><br><span class="line">    exact?: boolean &#x3D; true,</span><br><span class="line">    normalizer?: NormalizerFn,</span><br><span class="line">  &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import IconReactTesting from &quot;..&#x2F;..&#x2F;img&#x2F;octopus-128x128.png&quot;;</span><br><span class="line">import &quot;.&#x2F;Img.scss&quot;;</span><br><span class="line"></span><br><span class="line">const Img &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;div className&#x3D;&#123;&quot;img-class&quot;&#125;&gt;</span><br><span class="line">      &lt;h3&gt;Testing ByAltText&lt;&#x2F;h3&gt;</span><br><span class="line">      &lt;img src&#x3D;&#123;IconReactTesting&#125; alt&#x3D;&#123;&quot;This is a img&quot;&#125; &#x2F;&gt;</span><br><span class="line">    &lt;&#x2F;div&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default Img;</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>Test</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &#39;react&#39;;</span><br><span class="line">import * as Testing from &#39;@testing-library&#x2F;react&#39;;</span><br><span class="line">import Img from &#39;..&#x2F;Img&#x2F;Img&#39;;</span><br><span class="line"></span><br><span class="line">test(&#39;queries getByAltText&#39;, () &#x3D;&gt; &#123;</span><br><span class="line"></span><br><span class="line">    Testing.render(&lt;Img&#x2F;&gt;);</span><br><span class="line">    Testing.screen.getByAltText(&#39;This is a img&#39;);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>ByTitle</strong></p>
+<p>Esta búsqueda nos devolvería el elemento que contenga en su atributo <em>title</em> el <em>TextMatch</em> que le pasemos, funcionaría con elementos <em>svg</em> ya que contengan dentro la etiqueta <em>title</em>. </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">getByTitle(</span><br><span class="line">  container: HTMLElement, &#x2F;&#x2F;if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">  title: TextMatch,</span><br><span class="line">  options?: &#123;</span><br><span class="line">    exact?: boolean &#x3D; true,</span><br><span class="line">    normalizer?: NormalizerFn,</span><br><span class="line">  &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import &quot;.&#x2F;InputWithTitle.scss&quot;;</span><br><span class="line"></span><br><span class="line">const InputWithTitle &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;div className&#x3D;&#123;&quot;input-with-title&quot;&#125;&gt;</span><br><span class="line">      &lt;h3&gt;Testing ByTitle&lt;&#x2F;h3&gt;</span><br><span class="line">      &lt;input type&#x3D;&#123;&quot;text&quot;&#125; title&#x3D;&#123;&quot;This a input with title&quot;&#125; &#x2F;&gt;</span><br><span class="line">    &lt;&#x2F;div&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default InputWithTitle;</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>Test</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &#39;react&#39;;</span><br><span class="line">import * as Testing from &#39;@testing-library&#x2F;react&#39;;</span><br><span class="line">import InputWithTitle from &quot;.&#x2F;InputWithTitle&quot;;</span><br><span class="line"></span><br><span class="line">test(&#39;queries getByTitle&#39;, () &#x3D;&gt; &#123;</span><br><span class="line">    Testing.render(&lt;InputWithTitle&#x2F;&gt;);</span><br><span class="line">    Testing.screen.getByTitle(&#39;This a input with title&#39;);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>ByDisplayValue</strong></p>
+<p>Esta búsqueda nos devolvería el <strong>input, textarea o select</strong> que contengan el valor indicado en el <em>TextMatch</em>.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">getByDisplayValue(</span><br><span class="line">  container: HTMLElement, &#x2F;&#x2F;if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">  value: TextMatch,</span><br><span class="line">  options?: &#123;</span><br><span class="line">    exact?: boolean &#x3D; true,</span><br><span class="line">    normalizer?: NormalizerFn,</span><br><span class="line">  &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import &quot;.&#x2F;InputWithDisplayValue.scss&quot;;</span><br><span class="line"></span><br><span class="line">const InputWithDisplayValue &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;div className&#x3D;&#123;&quot;display-value&quot;&#125;&gt;</span><br><span class="line">      &lt;h3&gt;Testing ByDisplayValue&lt;&#x2F;h3&gt;</span><br><span class="line">      &lt;input</span><br><span class="line">        type&#x3D;&#123;&quot;text&quot;&#125;</span><br><span class="line">        title&#x3D;&#123;&quot;This a input with title&quot;&#125;</span><br><span class="line">        value&#x3D;&#123;&quot;This a input with display value&quot;&#125;</span><br><span class="line">        readOnly&#x3D;&#123;true&#125;</span><br><span class="line">      &#x2F;&gt;</span><br><span class="line">    &lt;&#x2F;div&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default InputWithDisplayValue;</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>Test</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &#39;react&#39;;</span><br><span class="line">import * as Testing from &#39;@testing-library&#x2F;react&#39;;</span><br><span class="line">import InputWithDisplayValue from &quot;.&#x2F;InputWithDisplayValue&quot;;</span><br><span class="line"></span><br><span class="line">test(&#39;queries getByTitle&#39;, () &#x3D;&gt; &#123;</span><br><span class="line">    Testing.render(&lt;InputWithDisplayValue&#x2F;&gt;);</span><br><span class="line">    Testing.screen.getByDisplayValue(&#39;This a input with display value&#39;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<br/>    
+
+<p><strong>ByRole</strong></p>
+<p> Búsqueda por el atributo <em>role</em> incluyendo también en los elementos que ya tienen dicha etiqueta implícita <a href="https://www.w3.org/TR/html-aria/#docconformance" target="_blank" rel="noopener">(tabla de elementos HTML con roles predeterminados)</a>, hay que tener en cuenta que introducir un <em>atributo role</em> en un elemento que ya lo tiene por defecto, nos puede causar problemas, ya que podríamos introducir un <em>role</em> que no le corresponde.</p>
+<p> Si tenemos varios elementos con el mismo <em>role</em> podríamos buscarlo por su <a href="https://developer.paciellogroup.com/blog/2017/04/what-is-an-accessible-name/" target="_blank" rel="noopener">nombre accesible</a> nombre accesible, dicha busqueda no sustituye a <em>ByAlt o ByTitle</em>.</p>
+<p> Tenemos varias opciones que podemos configurar para la búsqueda, como <em>hidden, selected, checked, pressed, queryFallbacks y levels</em> (podrás ver algo más sobre la configuración en la parte <strong>ByRole</strong> que encuentras <strong><a href="https://testing-library.com/docs/dom-testing-library/api-queries" target="_blank" rel="noopener">en la documentación</a></strong>).</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">getByRole(</span><br><span class="line">		  container: HTMLElement, &#x2F;&#x2F;if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">		  role: TextMatch,</span><br><span class="line">		  options?: &#123;</span><br><span class="line">		    exact?: boolean &#x3D; true,</span><br><span class="line">		    hidden?: boolean &#x3D; false,</span><br><span class="line">		    name?: TextMatch,</span><br><span class="line">		    normalizer?: NormalizerFn,</span><br><span class="line">		    selected?: boolean,</span><br><span class="line">		    checked?: boolean,</span><br><span class="line">		    pressed?: boolean,</span><br><span class="line">		    queryFallbacks?: boolean,</span><br><span class="line">		    level?: number,</span><br><span class="line">		  &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import &quot;.&#x2F;ByRole.scss&quot;;</span><br><span class="line"></span><br><span class="line">const ByRole &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;&gt;</span><br><span class="line">      &lt;div className&#x3D;&#123;&quot;byRole&quot;&#125;&gt;</span><br><span class="line">        &lt;header&gt;</span><br><span class="line">          &lt;h3&gt;This is to prove the queries ByRole&lt;&#x2F;h3&gt;</span><br><span class="line">        &lt;&#x2F;header&gt;</span><br><span class="line"></span><br><span class="line">        &lt;button type&#x3D;&quot;submit&quot;&gt;This is a submit button&lt;&#x2F;button&gt;</span><br><span class="line"></span><br><span class="line">        &lt;button type&#x3D;&quot;reset&quot;&gt;This is a reset button&lt;&#x2F;button&gt;</span><br><span class="line"></span><br><span class="line">        &lt;button type&#x3D;&quot;button&quot;&gt;This is a button&lt;&#x2F;button&gt;</span><br><span class="line">      &lt;&#x2F;div&gt;</span><br><span class="line">    &lt;&#x2F;&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default ByRole;</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<p><strong>Test</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import * as Testing from &quot;@testing-library&#x2F;react&quot;;</span><br><span class="line">import ByRole from &quot;.&#x2F;ByRole&quot;;</span><br><span class="line"></span><br><span class="line">test(&quot;to testing byRole&quot;, () &#x3D;&gt; &#123;</span><br><span class="line">  Testing.render(&lt;ByRole &#x2F;&gt;);</span><br><span class="line">  Testing.screen.getByRole(&quot;button&quot;, &#123; name: &quot;This is a reset button&quot; &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>ByTestId</strong></p>
+<p>Solamente es recomendable cuando ninguna de las <em>queries</em> anteriores nos permite hacer la búsqueda.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">getByTestId(</span><br><span class="line">      container: HTMLElement, &#x2F;&#x2F; if you&#39;re using &#96;screen&#96;, then skip this argument</span><br><span class="line">      text: TextMatch,</span><br><span class="line">      options?: &#123;</span><br><span class="line">        exact?: boolean &#x3D; true,</span><br><span class="line">        normalizer?: NormalizerFn,</span><br><span class="line">      &#125;): HTMLElement</span><br></pre></td></tr></table></figure>
+<br/>
+
+<ul>
+<li><strong>Ejemplo en código</strong></li>
+</ul>
+<p><strong>Componente</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &quot;react&quot;;</span><br><span class="line">import &quot;.&#x2F;ExampleByTestId.scss&quot;;</span><br><span class="line">const ExampleByTestId &#x3D; () &#x3D;&gt; &#123;</span><br><span class="line">  return (</span><br><span class="line">    &lt;div className&#x3D;&#123;&quot;byTestId&quot;&#125; data-testid&#x3D;&#123;&quot;custom-element&quot;&#125;&gt;</span><br><span class="line">      &lt;p&gt;Testing ByTestId&lt;&#x2F;p&gt;</span><br><span class="line">    &lt;&#x2F;div&gt;</span><br><span class="line">  );</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">export default ExampleByTestId;</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p><strong>Test</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">import * as React from &#39;react&#39;;</span><br><span class="line">import * as Testing from &#39;@testing-library&#x2F;react&#39;;</span><br><span class="line">import ExampleByTestId from &quot;.&#x2F;ExampleByTestId&quot;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">test(&#39;testing getByTestId&#39;,()&#x3D;&gt;&#123;</span><br><span class="line">    Testing.render(&lt;ExampleByTestId&#x2F;&gt;);</span><br><span class="line">    Testing.screen.getByTestId(&#39;custom-element&#39;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<br/>
+
+<p>En este post he querido ver las <em>queries</em> que nos brinda esta librería, para terminar mi aprendizaje de <strong>React Testing</strong> veremos en el siguiente los <strong>Firing Events</strong> y algunos de los <strong>métodos que hereda de DOM Testing Library</strong> .</p>
+<p><strong><em>Nos vemos en el próximo post,……</em></strong></p>
+
+  </div>
+</section>
+
+		
+
+
+<footer class="footer">
+  <div class="content container">
+      <!--// row -->
+      <div class="row">
+<!--          <div class="col-xs-6">-->
+<!--            -->
+<!--              <img class="footer-logo" src="/source/img/japon/templo.jpg" alt="Samuel.R.A">-->
+<!--            -->
+<!--          <p>Samuel.R.A</p>-->
+
+          </div>
+          <div class="col-xs-6 text-right sm-text-left">
+              <p class="margin-b-0">
+                &copy 2020 Samuel Romero Arbelo
+<!--                <br>-->
+<!--                <br>-->
+<!--                -->
+            </p>
+          </div>
+      </div>
+      <!--// end row -->
+  </div>
+</footer>
+		<!-- Back To Top -->
+<a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+<!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- CORE PLUGINS -->
+<script src="/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="/vendor/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!-- PAGE LEVEL PLUGINS -->
+<script src="/vendor/jquery.easing.js" type="text/javascript"></script>
+<script src="/vendor/jquery.back-to-top.js" type="text/javascript"></script>
+<script src="/vendor/jquery.wow.min.js" type="text/javascript"></script>
+<script src="/vendor/jquery.parallax.min.js" type="text/javascript"></script>
+<script src="/vendor/jquery.appear.js" type="text/javascript"></script>
+<script src="/vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="/vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+<!-- PAGE LEVEL SCRIPTS -->
+
+
+
+<script src="/js/layout.js"></script>
+<script src="/js/components/progress-bar.js"></script>
+<script src="/js/components/masonry.js"></script>
+<script src="/js/components/wow.js"></script>
+
+
+		
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-177376674-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+  </body>
+</html>
